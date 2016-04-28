@@ -11,7 +11,7 @@
 #import "PicoXMLElement.h"
 #import "CommonTypes.h"
 #import "SOAP11Fault.h"
-#import "RWMAmazonProductAdvertisingManager.h"
+//#import "RWMAmazonProductAdvertisingManager.h"
 
 @implementation AWSECommerceServiceClient
 
@@ -73,35 +73,36 @@ static NSString *const AuthHeaderNS = @"http://security.amazonaws.com/doc/2007-0
     [self.customSoapHeaders addObject:signatureElement];
 }
 
+
 - (void)searchProductCategory:(NSString *)categoryName withKeyword:(NSString *)keyword executeBlock:(void (^)(NSMutableArray *))callbackBlock
 {
     
-    RWMAmazonProductAdvertisingManager *manager = [[RWMAmazonProductAdvertisingManager alloc] initWithAccessKeyID:AWSAccessKeyId secret:AWSSecureKeyId];
-    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    
-    NSMutableDictionary *parameters = [@{
-                                         @"Service" : @"AWSECommerceService",
-                                         @"Operation" : @"ItemSearch",
-                                         @"ResponseGroup" : @"ItemAttributes,Images,EditorialReview",
-                                         @"AssociateTag" : @"nstarinteract-20"
-                                         } mutableCopy];
-    
-    //if (type == RWMAmazonProductAdvertisingISBN13) {
-        //[parameters setObject:@"EAN" forKey:@"IdType"];
-        [parameters setObject:categoryName forKey:@"SearchIndex"];
-        [parameters setObject:@"All" forKey:@"Condition"];
-    //}
-    
-    [manager enqueueRequestOperationWithMethod:@"GET" parameters:[parameters copy] success:^(id responseObject) {
-        NSLog(responseObject);
-        callbackBlock(nil);
-    } failure:^(NSError *error) {
-        NSLog(error.localizedDescription);
-        callbackBlock(nil);
-    }];
-    
-    
-    return;
+//    RWMAmazonProductAdvertisingManager *manager = [[RWMAmazonProductAdvertisingManager alloc] initWithAccessKeyID:AWSAccessKeyId secret:AWSSecureKeyId];
+//    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+//    
+//    NSMutableDictionary *parameters = [@{
+//                                         @"Service" : @"AWSECommerceService",
+//                                         @"Operation" : @"ItemSearch",
+//                                         @"ResponseGroup" : @"ItemAttributes,Images,EditorialReview",
+//                                         @"AssociateTag" : @"nstarinteract-20"
+//                                         } mutableCopy];
+//    
+//    //if (type == RWMAmazonProductAdvertisingISBN13) {
+//        //[parameters setObject:@"EAN" forKey:@"IdType"];
+//        [parameters setObject:categoryName forKey:@"SearchIndex"];
+//        [parameters setObject:@"All" forKey:@"Condition"];
+//    //}
+//    
+//    [manager enqueueRequestOperationWithMethod:@"GET" parameters:[parameters copy] success:^(id responseObject) {
+//        NSLog(responseObject);
+//        callbackBlock(nil);
+//    } failure:^(NSError *error) {
+//        NSLog(error.localizedDescription);
+//        callbackBlock(nil);
+//    }];
+//    
+//    
+//    return;
         // get shared client
     AWSECommerceServiceClient *client = [AWSECommerceServiceClient sharedClient];
     client.debug = YES;

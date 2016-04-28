@@ -153,8 +153,6 @@
 		8BECD00A1CC780DF00F0E1C4 /* VariationDimensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECCF871CC77F5900F0E1C4 /* VariationDimensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8BECD00B1CC780DF00F0E1C4 /* Variations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECCF891CC77F5900F0E1C4 /* Variations.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8BECD00C1CC780DF00F0E1C4 /* VariationSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECCF8B1CC77F5900F0E1C4 /* VariationSummary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8BECD0111CC789E700F0E1C4 /* RWMAmazonProductAdvertisingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECD00E1CC789E700F0E1C4 /* RWMAmazonProductAdvertisingManager.m */; };
-		8BECD0121CC789E700F0E1C4 /* RWMAmazonProductAdvertisingRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECD0101CC789E700F0E1C4 /* RWMAmazonProductAdvertisingRequestSerializer.m */; };
 		8BECD0181CCBCDB600F0E1C4 /* HMMoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BECD0171CCBCDB600F0E1C4 /* HMMoviesTableViewController.swift */; };
 		8BECD0201CCBD16800F0E1C4 /* HMMovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BECD01F1CCBD16800F0E1C4 /* HMMovieInfo.swift */; };
 		8BECD0221CCBD5E100F0E1C4 /* HMSharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BECD0211CCBD5E100F0E1C4 /* HMSharedData.swift */; };
@@ -451,10 +449,6 @@
 		8BECCF891CC77F5900F0E1C4 /* Variations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Variations.m; sourceTree = "<group>"; };
 		8BECCF8A1CC77F5900F0E1C4 /* VariationSummary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariationSummary.h; sourceTree = "<group>"; };
 		8BECCF8B1CC77F5900F0E1C4 /* VariationSummary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VariationSummary.m; sourceTree = "<group>"; };
-		8BECD00D1CC789E700F0E1C4 /* RWMAmazonProductAdvertisingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWMAmazonProductAdvertisingManager.h; path = ../../RWMAmazonProductAdvertisingManager/RWMAmazonProductAdvertisingManager.h; sourceTree = "<group>"; };
-		8BECD00E1CC789E700F0E1C4 /* RWMAmazonProductAdvertisingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWMAmazonProductAdvertisingManager.m; path = ../../RWMAmazonProductAdvertisingManager/RWMAmazonProductAdvertisingManager.m; sourceTree = "<group>"; };
-		8BECD00F1CC789E700F0E1C4 /* RWMAmazonProductAdvertisingRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWMAmazonProductAdvertisingRequestSerializer.h; path = ../../RWMAmazonProductAdvertisingManager/RWMAmazonProductAdvertisingRequestSerializer.h; sourceTree = "<group>"; };
-		8BECD0101CC789E700F0E1C4 /* RWMAmazonProductAdvertisingRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWMAmazonProductAdvertisingRequestSerializer.m; path = ../../RWMAmazonProductAdvertisingManager/RWMAmazonProductAdvertisingRequestSerializer.m; sourceTree = "<group>"; };
 		8BECD0171CCBCDB600F0E1C4 /* HMMoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMoviesTableViewController.swift; sourceTree = "<group>"; };
 		8BECD01F1CCBD16800F0E1C4 /* HMMovieInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMovieInfo.swift; sourceTree = "<group>"; };
 		8BECD0211CCBD5E100F0E1C4 /* HMSharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSharedData.swift; sourceTree = "<group>"; };
@@ -1091,10 +1085,6 @@
 			children = (
 				8B5F95751CCD9AA6005A1D0F /* ColorWheel.h */,
 				8B5F95761CCD9AA6005A1D0F /* ColorWheel.m */,
-				8BECD00D1CC789E700F0E1C4 /* RWMAmazonProductAdvertisingManager.h */,
-				8BECD00E1CC789E700F0E1C4 /* RWMAmazonProductAdvertisingManager.m */,
-				8BECD00F1CC789E700F0E1C4 /* RWMAmazonProductAdvertisingRequestSerializer.h */,
-				8BECD0101CC789E700F0E1C4 /* RWMAmazonProductAdvertisingRequestSerializer.m */,
 				8B65251A1CC759D60094CD82 /* AWSECommerceServiceClient.m */,
 				8B65251C1CC759EE0094CD82 /* AWSECommerceServiceClient.h */,
 				8B65251D1CC75AAB0094CD82 /* AmazonAuthUtils.h */,
@@ -1366,7 +1356,6 @@
 				8BECCFF61CC780DF00F0E1C4 /* SearchBinSet.m in Sources */,
 				8BECCFF71CC780DF00F0E1C4 /* SearchBinSets.m in Sources */,
 				8BECCFF81CC780DF00F0E1C4 /* SearchIndex.m in Sources */,
-				8BECD0121CC789E700F0E1C4 /* RWMAmazonProductAdvertisingRequestSerializer.m in Sources */,
 				8BECCFF91CC780DF00F0E1C4 /* SearchResultsMap.m in Sources */,
 				8BECCFFA1CC780DF00F0E1C4 /* SimilarityLookup.m in Sources */,
 				8BECCFFB1CC780DF00F0E1C4 /* SimilarityLookupRequest.m in Sources */,
@@ -1378,7 +1367,6 @@
 				8B5F957F1CD05003005A1D0F /* HMGenreCell.swift in Sources */,
 				8BECD0011CC780DF00F0E1C4 /* StringWithUnits.m in Sources */,
 				8BECD0021CC780DF00F0E1C4 /* TopItem.m in Sources */,
-				8BECD0111CC789E700F0E1C4 /* RWMAmazonProductAdvertisingManager.m in Sources */,
 				8BECD0221CCBD5E100F0E1C4 /* HMSharedData.swift in Sources */,
 				8BECD0031CC780DF00F0E1C4 /* TopItemSet.m in Sources */,
 				8BECD0041CC780DF00F0E1C4 /* TopSeller.m in Sources */,

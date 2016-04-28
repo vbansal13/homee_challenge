@@ -48,12 +48,12 @@ class HMMovieInfo: NSObject, NSCoding {
         get {
             if let posterPath = mBackdropPath {
                 
-                let baseURLString = HMSharedData.sharedInstance.mBaseURLString!.stringByReplacingOccurrencesOfString("w92", withString: "w780")
+                let baseURLString = HMMovieDBClientHelper.sharedInstance.mBaseURLString!.stringByReplacingOccurrencesOfString("w92", withString: "w780")
                 
                 let imageString = baseURLString.stringByAppendingString(posterPath)
                 return imageString
             } else if let posterPath = mPosterPath {
-                let baseURLString = HMSharedData.sharedInstance.mBaseURLString!.stringByReplacingOccurrencesOfString("w92", withString: "w500")
+                let baseURLString = HMMovieDBClientHelper.sharedInstance.mBaseURLString!.stringByReplacingOccurrencesOfString("w92", withString: "w500")
                 
                 let imageString = baseURLString.stringByAppendingString(posterPath)
                 return imageString
