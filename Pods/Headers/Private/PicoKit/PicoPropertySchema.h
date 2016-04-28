@@ -1,0 +1,1 @@
+../../../PicoKit/Pod/Core/Schema/PicoPropertySchema.h

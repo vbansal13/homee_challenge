@@ -1,0 +1,1255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HMLovedMoviesTableViewController"
+provides-nominal:
+- "C20AmazonProductBrowser32HMLovedMoviesTableViewController"
+provides-member:
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", ""]
+provides-dynamic-lookup:
+- "movieRemovedFromLoveList"
+- "numberOfSectionsInTableView"
+- "refreshMovies"
+- "viewWillAppear"
+- "tableView"
+- "tableView"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "movieFavoriteButtonClicked"
+depends-top-level:
+- "Bool"
+- "HMProductCellDelegate"
+- !private "UINib"
+- "NSIndexPath"
+- !private "HMSharedData"
+- !private "Array"
+- "StringLiteralType"
+- "UITableView"
+- "UITableViewController"
+- "UIRefreshControl"
+- !private "HMProductCell"
+- "HMMovieInfo"
+- !private "HMFavoriteSelectorTableViewController"
+- "UITableViewCell"
+- "Int"
+- !private "BooleanLiteralType"
+- "HMLovedMoviesTableViewController"
+depends-member:
+- !private ["Ps9AnyObject", "HMLovedMoviesTableViewController"]
+- !private ["Ps9AnyObject", "HMSharedData"]
+- !private ["Ps9AnyObject", "UINib"]
+- !private ["Ps9AnyObject", "UIRefreshControl"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "deleteRowsAtIndexPaths"]
+- !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "endRefreshing"]
+- !private ["Ps9AnyObject", "getLovedMovieIds"]
+- !private ["Ps9AnyObject", "getMovie"]
+- !private ["Ps9AnyObject", "indexPathForCell"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps9AnyObject", "mCellDelegate"]
+- ["Ps9AnyObject", "mCellID"]
+- ["Ps9AnyObject", "mMovieList"]
+- !private ["Ps9AnyObject", "mMovieObject"]
+- ["Ps9AnyObject", "movieFavoriteButtonClicked"]
+- ["Ps9AnyObject", "movieRemovedFromLoveList"]
+- !private ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- !private ["Ps9AnyObject", "pushViewController"]
+- !private ["Ps9AnyObject", "refreshControl"]
+- ["Ps9AnyObject", "refreshMovies"]
+- !private ["Ps9AnyObject", "registerNib"]
+- !private ["Ps9AnyObject", "reloadData"]
+- !private ["Ps9AnyObject", "row"]
+- !private ["Ps9AnyObject", "selectionStyle"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "storyboard"]
+- ["Ps9AnyObject", "tableView"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "removeAtIndex"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "ValueChanged"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAll"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAtIndex"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "HMLovedMoviesTableViewController"]
+- !private ["Ps11CVarArgType", "HMSharedData"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "UINib"]
+- !private ["Ps11CVarArgType", "UIRefreshControl"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- !private ["Ps11CVarArgType", "deleteRowsAtIndexPaths"]
+- !private ["Ps11CVarArgType", "dequeueReusableCellWithIdentifier"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "endRefreshing"]
+- !private ["Ps11CVarArgType", "getLovedMovieIds"]
+- !private ["Ps11CVarArgType", "getMovie"]
+- !private ["Ps11CVarArgType", "indexPathForCell"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps11CVarArgType", "mCellDelegate"]
+- ["Ps11CVarArgType", "mCellID"]
+- ["Ps11CVarArgType", "mMovieList"]
+- !private ["Ps11CVarArgType", "mMovieObject"]
+- ["Ps11CVarArgType", "movieFavoriteButtonClicked"]
+- ["Ps11CVarArgType", "movieRemovedFromLoveList"]
+- !private ["Ps11CVarArgType", "navigationController"]
+- ["Ps11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["Ps11CVarArgType", "pushViewController"]
+- !private ["Ps11CVarArgType", "refreshControl"]
+- ["Ps11CVarArgType", "refreshMovies"]
+- !private ["Ps11CVarArgType", "registerNib"]
+- !private ["Ps11CVarArgType", "reloadData"]
+- !private ["Ps11CVarArgType", "row"]
+- !private ["Ps11CVarArgType", "selectionStyle"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
+- !private ["Ps11CVarArgType", "storyboard"]
+- ["Ps11CVarArgType", "tableView"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "removeAll"]
+- !private ["Ps14CollectionType", "removeAtIndex"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "HMLovedMoviesTableViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "HMSharedData"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UINib"]
+- !private ["Ps28CustomDebugStringConvertible", "UIRefreshControl"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "deleteRowsAtIndexPaths"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "endRefreshing"]
+- !private ["Ps28CustomDebugStringConvertible", "getLovedMovieIds"]
+- !private ["Ps28CustomDebugStringConvertible", "getMovie"]
+- !private ["Ps28CustomDebugStringConvertible", "indexPathForCell"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "mCellDelegate"]
+- ["Ps28CustomDebugStringConvertible", "mCellID"]
+- ["Ps28CustomDebugStringConvertible", "mMovieList"]
+- !private ["Ps28CustomDebugStringConvertible", "mMovieObject"]
+- ["Ps28CustomDebugStringConvertible", "movieFavoriteButtonClicked"]
+- ["Ps28CustomDebugStringConvertible", "movieRemovedFromLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "refreshControl"]
+- ["Ps28CustomDebugStringConvertible", "refreshMovies"]
+- !private ["Ps28CustomDebugStringConvertible", "registerNib"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAtIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "selectionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "storyboard"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "HMLovedMoviesTableViewController"]
+- !private ["Ps23CustomStringConvertible", "HMSharedData"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UINib"]
+- !private ["Ps23CustomStringConvertible", "UIRefreshControl"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "deleteRowsAtIndexPaths"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "endRefreshing"]
+- !private ["Ps23CustomStringConvertible", "getLovedMovieIds"]
+- !private ["Ps23CustomStringConvertible", "getMovie"]
+- !private ["Ps23CustomStringConvertible", "indexPathForCell"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "mCellDelegate"]
+- ["Ps23CustomStringConvertible", "mCellID"]
+- ["Ps23CustomStringConvertible", "mMovieList"]
+- !private ["Ps23CustomStringConvertible", "mMovieObject"]
+- ["Ps23CustomStringConvertible", "movieFavoriteButtonClicked"]
+- ["Ps23CustomStringConvertible", "movieRemovedFromLoveList"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps23CustomStringConvertible", "pushViewController"]
+- !private ["Ps23CustomStringConvertible", "refreshControl"]
+- ["Ps23CustomStringConvertible", "refreshMovies"]
+- !private ["Ps23CustomStringConvertible", "registerNib"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- !private ["Ps23CustomStringConvertible", "removeAtIndex"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- !private ["Ps23CustomStringConvertible", "selectionStyle"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "storyboard"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Automatic"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "HMLovedMoviesTableViewController"]
+- !private ["Ps9Equatable", "HMSharedData"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "None"]
+- !private ["Ps9Equatable", "UINib"]
+- !private ["Ps9Equatable", "UIRefreshControl"]
+- !private ["Ps9Equatable", "ValueChanged"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "deleteRowsAtIndexPaths"]
+- !private ["Ps9Equatable", "dequeueReusableCellWithIdentifier"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "endRefreshing"]
+- !private ["Ps9Equatable", "getLovedMovieIds"]
+- !private ["Ps9Equatable", "getMovie"]
+- !private ["Ps9Equatable", "indexPathForCell"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps9Equatable", "mCellDelegate"]
+- ["Ps9Equatable", "mCellID"]
+- ["Ps9Equatable", "mMovieList"]
+- !private ["Ps9Equatable", "mMovieObject"]
+- ["Ps9Equatable", "movieFavoriteButtonClicked"]
+- ["Ps9Equatable", "movieRemovedFromLoveList"]
+- !private ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "numberOfSectionsInTableView"]
+- !private ["Ps9Equatable", "pushViewController"]
+- !private ["Ps9Equatable", "refreshControl"]
+- ["Ps9Equatable", "refreshMovies"]
+- !private ["Ps9Equatable", "registerNib"]
+- !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "selectionStyle"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "storyboard"]
+- ["Ps9Equatable", "tableView"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["C20AmazonProductBrowser37HMFavoriteSelectorTableViewController", "mMovieObject"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "Bool"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "HMFavoriteSelectorTableViewController"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "HMLovedMoviesTableViewController"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "HMMovieInfo"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "HMProductCell"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "HMSharedData"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "Int"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "NSIndexPath"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "UINib"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "UIRefreshControl"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "UITableView"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "UITableViewCell"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "deinit"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "didReceiveMemoryWarning"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "init"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "mCellID"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "mMovieList"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "movieFavoriteButtonClicked"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "movieRemovedFromLoveList"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "navigationController"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "numberOfSectionsInTableView"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "refreshControl"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "refreshMovies"]
+- !private ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "storyboard"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "tableView"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "viewDidLoad"]
+- ["C20AmazonProductBrowser32HMLovedMoviesTableViewController", "viewWillAppear"]
+- !private ["C20AmazonProductBrowser13HMProductCell", "mCellDelegate"]
+- !private ["C20AmazonProductBrowser13HMProductCell", "mMovieObject"]
+- !private ["C20AmazonProductBrowser13HMProductCell", "selectionStyle"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "HMLovedMoviesTableViewController"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "HMSharedData"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "UINib"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "UIRefreshControl"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "mCellID"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "mMovieList"]
+- ["P20AmazonProductBrowser21HMProductCellDelegate", "movieFavoriteButtonClicked"]
+- ["P20AmazonProductBrowser21HMProductCellDelegate", "movieRemovedFromLoveList"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "navigationController"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "refreshControl"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "refreshMovies"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "storyboard"]
+- !private ["P20AmazonProductBrowser21HMProductCellDelegate", "tableView"]
+- ["P20AmazonProductBrowser21HMProductCellDelegate", ""]
+- !private ["C20AmazonProductBrowser12HMSharedData", "getLovedMovieIds"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "getMovie"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "sharedInstance"]
+- !private ["Ps8Hashable", "Automatic"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "HMLovedMoviesTableViewController"]
+- !private ["Ps8Hashable", "HMSharedData"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "None"]
+- !private ["Ps8Hashable", "UINib"]
+- !private ["Ps8Hashable", "UIRefreshControl"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "deleteRowsAtIndexPaths"]
+- !private ["Ps8Hashable", "dequeueReusableCellWithIdentifier"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "endRefreshing"]
+- !private ["Ps8Hashable", "getLovedMovieIds"]
+- !private ["Ps8Hashable", "getMovie"]
+- !private ["Ps8Hashable", "indexPathForCell"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps8Hashable", "mCellDelegate"]
+- ["Ps8Hashable", "mCellID"]
+- ["Ps8Hashable", "mMovieList"]
+- !private ["Ps8Hashable", "mMovieObject"]
+- ["Ps8Hashable", "movieFavoriteButtonClicked"]
+- ["Ps8Hashable", "movieRemovedFromLoveList"]
+- !private ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps8Hashable", "pushViewController"]
+- !private ["Ps8Hashable", "refreshControl"]
+- ["Ps8Hashable", "refreshMovies"]
+- !private ["Ps8Hashable", "registerNib"]
+- !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "row"]
+- !private ["Ps8Hashable", "selectionStyle"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "storyboard"]
+- ["Ps8Hashable", "tableView"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "removeAll"]
+- !private ["Ps9Indexable", "removeAtIndex"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "removeAll"]
+- !private ["Ps21MutableCollectionType", "removeAtIndex"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "removeAll"]
+- !private ["Ps16MutableIndexable", "removeAtIndex"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "removeAll"]
+- !private ["Ps16MutableSliceable", "removeAtIndex"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "HMLovedMoviesTableViewController"]
+- !private ["PSo8NSCoding", "HMSharedData"]
+- !private ["PSo8NSCoding", "UINib"]
+- !private ["PSo8NSCoding", "UIRefreshControl"]
+- !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "deleteRowsAtIndexPaths"]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "endRefreshing"]
+- !private ["PSo8NSCoding", "indexPathForCell"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mCellDelegate"]
+- ["PSo8NSCoding", "mCellID"]
+- ["PSo8NSCoding", "mMovieList"]
+- !private ["PSo8NSCoding", "mMovieObject"]
+- ["PSo8NSCoding", "movieFavoriteButtonClicked"]
+- ["PSo8NSCoding", "movieRemovedFromLoveList"]
+- !private ["PSo8NSCoding", "navigationController"]
+- ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo8NSCoding", "refreshControl"]
+- ["PSo8NSCoding", "refreshMovies"]
+- !private ["PSo8NSCoding", "registerNib"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "row"]
+- !private ["PSo8NSCoding", "selectionStyle"]
+- !private ["PSo8NSCoding", "storyboard"]
+- ["PSo8NSCoding", "tableView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "row"]
+- !private ["PSo26NSExtensionRequestHandling", "HMLovedMoviesTableViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "HMSharedData"]
+- !private ["PSo26NSExtensionRequestHandling", "UINib"]
+- !private ["PSo26NSExtensionRequestHandling", "UIRefreshControl"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "mCellID"]
+- ["PSo26NSExtensionRequestHandling", "mMovieList"]
+- !private ["PSo26NSExtensionRequestHandling", "mMovieObject"]
+- ["PSo26NSExtensionRequestHandling", "movieFavoriteButtonClicked"]
+- ["PSo26NSExtensionRequestHandling", "movieRemovedFromLoveList"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "refreshControl"]
+- ["PSo26NSExtensionRequestHandling", "refreshMovies"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSIndexPath", "row"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "HMFavoriteSelectorTableViewController"]
+- !private ["CSo8NSObject", "HMLovedMoviesTableViewController"]
+- ["CSo8NSObject", "HMMovieInfo"]
+- !private ["CSo8NSObject", "HMProductCell"]
+- !private ["CSo8NSObject", "HMSharedData"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- !private ["CSo8NSObject", "UINib"]
+- ["CSo8NSObject", "UIRefreshControl"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "deleteRowsAtIndexPaths"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "endRefreshing"]
+- !private ["CSo8NSObject", "getLovedMovieIds"]
+- !private ["CSo8NSObject", "getMovie"]
+- !private ["CSo8NSObject", "indexPathForCell"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- !private ["CSo8NSObject", "mCellDelegate"]
+- ["CSo8NSObject", "mCellID"]
+- ["CSo8NSObject", "mMovieList"]
+- !private ["CSo8NSObject", "mMovieObject"]
+- ["CSo8NSObject", "movieFavoriteButtonClicked"]
+- ["CSo8NSObject", "movieRemovedFromLoveList"]
+- !private ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "pushViewController"]
+- !private ["CSo8NSObject", "refreshControl"]
+- ["CSo8NSObject", "refreshMovies"]
+- !private ["CSo8NSObject", "registerNib"]
+- !private ["CSo8NSObject", "reloadData"]
+- !private ["CSo8NSObject", "row"]
+- !private ["CSo8NSObject", "selectionStyle"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "storyboard"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "HMLovedMoviesTableViewController"]
+- !private ["PSo16NSObjectProtocol", "HMSharedData"]
+- !private ["PSo16NSObjectProtocol", "UINib"]
+- !private ["PSo16NSObjectProtocol", "UIRefreshControl"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "deleteRowsAtIndexPaths"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "endRefreshing"]
+- !private ["PSo16NSObjectProtocol", "getLovedMovieIds"]
+- !private ["PSo16NSObjectProtocol", "getMovie"]
+- !private ["PSo16NSObjectProtocol", "indexPathForCell"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "mCellDelegate"]
+- ["PSo16NSObjectProtocol", "mCellID"]
+- ["PSo16NSObjectProtocol", "mMovieList"]
+- !private ["PSo16NSObjectProtocol", "mMovieObject"]
+- ["PSo16NSObjectProtocol", "movieFavoriteButtonClicked"]
+- ["PSo16NSObjectProtocol", "movieRemovedFromLoveList"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "refreshControl"]
+- ["PSo16NSObjectProtocol", "refreshMovies"]
+- !private ["PSo16NSObjectProtocol", "registerNib"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "row"]
+- !private ["PSo16NSObjectProtocol", "selectionStyle"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "row"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps13OptionSetType", "ValueChanged"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "removeAll"]
+- !private ["Ps30RangeReplaceableCollectionType", "removeAtIndex"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps16RawRepresentable", "Automatic"]
+- !private ["Ps16RawRepresentable", "None"]
+- !private ["Ps16RawRepresentable", "ValueChanged"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "removeAll"]
+- !private ["Ps12SequenceType", "removeAtIndex"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps14SetAlgebraType", "ValueChanged"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "deleteRowsAtIndexPaths"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "endRefreshing"]
+- !private ["PSo29UIAccessibilityIdentification", "indexPathForCell"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "mCellDelegate"]
+- !private ["PSo29UIAccessibilityIdentification", "mMovieObject"]
+- !private ["PSo29UIAccessibilityIdentification", "registerNib"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "selectionStyle"]
+- !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo12UIAppearance", "deleteRowsAtIndexPaths"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo12UIAppearance", "endRefreshing"]
+- !private ["PSo12UIAppearance", "indexPathForCell"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "mCellDelegate"]
+- !private ["PSo12UIAppearance", "mMovieObject"]
+- !private ["PSo12UIAppearance", "registerNib"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "selectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "HMLovedMoviesTableViewController"]
+- !private ["PSo21UIAppearanceContainer", "HMSharedData"]
+- !private ["PSo21UIAppearanceContainer", "UINib"]
+- !private ["PSo21UIAppearanceContainer", "UIRefreshControl"]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- !private ["PSo21UIAppearanceContainer", "deleteRowsAtIndexPaths"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "endRefreshing"]
+- !private ["PSo21UIAppearanceContainer", "indexPathForCell"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "mCellDelegate"]
+- ["PSo21UIAppearanceContainer", "mCellID"]
+- ["PSo21UIAppearanceContainer", "mMovieList"]
+- !private ["PSo21UIAppearanceContainer", "mMovieObject"]
+- ["PSo21UIAppearanceContainer", "movieFavoriteButtonClicked"]
+- ["PSo21UIAppearanceContainer", "movieRemovedFromLoveList"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "refreshControl"]
+- ["PSo21UIAppearanceContainer", "refreshMovies"]
+- !private ["PSo21UIAppearanceContainer", "registerNib"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "selectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- ["PSo21UIAppearanceContainer", "tableView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "HMLovedMoviesTableViewController"]
+- !private ["PSo18UIContentContainer", "HMSharedData"]
+- !private ["PSo18UIContentContainer", "UINib"]
+- !private ["PSo18UIContentContainer", "UIRefreshControl"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "mCellID"]
+- ["PSo18UIContentContainer", "mMovieList"]
+- !private ["PSo18UIContentContainer", "mMovieObject"]
+- ["PSo18UIContentContainer", "movieFavoriteButtonClicked"]
+- ["PSo18UIContentContainer", "movieRemovedFromLoveList"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "refreshControl"]
+- ["PSo18UIContentContainer", "refreshMovies"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "addTarget"]
+- !private ["CSo9UIControl", "endRefreshing"]
+- !private ["CSo9UIControl", "init"]
+- !private ["VSC15UIControlEvents", "ValueChanged"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo17UICoordinateSpace", "deleteRowsAtIndexPaths"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo17UICoordinateSpace", "endRefreshing"]
+- !private ["PSo17UICoordinateSpace", "indexPathForCell"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "mCellDelegate"]
+- !private ["PSo17UICoordinateSpace", "mMovieObject"]
+- !private ["PSo17UICoordinateSpace", "registerNib"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "selectionStyle"]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo13UIDynamicItem", "deleteRowsAtIndexPaths"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo13UIDynamicItem", "endRefreshing"]
+- !private ["PSo13UIDynamicItem", "indexPathForCell"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "mCellDelegate"]
+- !private ["PSo13UIDynamicItem", "mMovieObject"]
+- !private ["PSo13UIDynamicItem", "registerNib"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "selectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "HMLovedMoviesTableViewController"]
+- !private ["PSo18UIFocusEnvironment", "HMSharedData"]
+- !private ["PSo18UIFocusEnvironment", "UINib"]
+- !private ["PSo18UIFocusEnvironment", "UIRefreshControl"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "deleteRowsAtIndexPaths"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "endRefreshing"]
+- !private ["PSo18UIFocusEnvironment", "indexPathForCell"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "mCellDelegate"]
+- ["PSo18UIFocusEnvironment", "mCellID"]
+- ["PSo18UIFocusEnvironment", "mMovieList"]
+- !private ["PSo18UIFocusEnvironment", "mMovieObject"]
+- ["PSo18UIFocusEnvironment", "movieFavoriteButtonClicked"]
+- ["PSo18UIFocusEnvironment", "movieRemovedFromLoveList"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "refreshControl"]
+- ["PSo18UIFocusEnvironment", "refreshMovies"]
+- !private ["PSo18UIFocusEnvironment", "registerNib"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "selectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- ["PSo18UIFocusEnvironment", "tableView"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "mCellDelegate"]
+- !private ["PSo27UIGestureRecognizerDelegate", "mMovieObject"]
+- !private ["PSo27UIGestureRecognizerDelegate", "selectionStyle"]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo5UINib", "init"]
+- !private ["CSo16UIRefreshControl", "addTarget"]
+- !private ["CSo16UIRefreshControl", "endRefreshing"]
+- !private ["CSo16UIRefreshControl", "init"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "HMFavoriteSelectorTableViewController"]
+- !private ["CSo11UIResponder", "HMLovedMoviesTableViewController"]
+- ["CSo11UIResponder", "HMMovieInfo"]
+- !private ["CSo11UIResponder", "HMProductCell"]
+- !private ["CSo11UIResponder", "HMSharedData"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSIndexPath"]
+- !private ["CSo11UIResponder", "UINib"]
+- ["CSo11UIResponder", "UIRefreshControl"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "addTarget"]
+- !private ["CSo11UIResponder", "deleteRowsAtIndexPaths"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "endRefreshing"]
+- !private ["CSo11UIResponder", "indexPathForCell"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "mCellDelegate"]
+- ["CSo11UIResponder", "mCellID"]
+- ["CSo11UIResponder", "mMovieList"]
+- !private ["CSo11UIResponder", "mMovieObject"]
+- ["CSo11UIResponder", "movieFavoriteButtonClicked"]
+- ["CSo11UIResponder", "movieRemovedFromLoveList"]
+- !private ["CSo11UIResponder", "navigationController"]
+- ["CSo11UIResponder", "numberOfSectionsInTableView"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["CSo11UIResponder", "refreshControl"]
+- ["CSo11UIResponder", "refreshMovies"]
+- !private ["CSo11UIResponder", "registerNib"]
+- !private ["CSo11UIResponder", "reloadData"]
+- !private ["CSo11UIResponder", "selectionStyle"]
+- !private ["CSo11UIResponder", "storyboard"]
+- ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["CSo12UIScrollView", "deleteRowsAtIndexPaths"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo12UIScrollView", "indexPathForCell"]
+- !private ["CSo12UIScrollView", "registerNib"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["PSo20UIScrollViewDelegate", "HMLovedMoviesTableViewController"]
+- !private ["PSo20UIScrollViewDelegate", "HMSharedData"]
+- !private ["PSo20UIScrollViewDelegate", "UINib"]
+- !private ["PSo20UIScrollViewDelegate", "UIRefreshControl"]
+- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "mCellID"]
+- ["PSo20UIScrollViewDelegate", "mMovieList"]
+- !private ["PSo20UIScrollViewDelegate", "mMovieObject"]
+- ["PSo20UIScrollViewDelegate", "movieFavoriteButtonClicked"]
+- ["PSo20UIScrollViewDelegate", "movieRemovedFromLoveList"]
+- !private ["PSo20UIScrollViewDelegate", "navigationController"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- !private ["PSo20UIScrollViewDelegate", "refreshControl"]
+- ["PSo20UIScrollViewDelegate", "refreshMovies"]
+- !private ["PSo20UIScrollViewDelegate", "storyboard"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", "viewWillAppear"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "HMLovedMoviesTableViewController"]
+- !private ["PSo16UIStateRestoring", "HMSharedData"]
+- !private ["PSo16UIStateRestoring", "UINib"]
+- !private ["PSo16UIStateRestoring", "UIRefreshControl"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "mCellID"]
+- ["PSo16UIStateRestoring", "mMovieList"]
+- !private ["PSo16UIStateRestoring", "mMovieObject"]
+- ["PSo16UIStateRestoring", "movieFavoriteButtonClicked"]
+- ["PSo16UIStateRestoring", "movieRemovedFromLoveList"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "refreshControl"]
+- ["PSo16UIStateRestoring", "refreshMovies"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- !private ["CSo11UITableView", "deleteRowsAtIndexPaths"]
+- !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo11UITableView", "indexPathForCell"]
+- !private ["CSo11UITableView", "registerNib"]
+- !private ["CSo11UITableView", "reloadData"]
+- !private ["CSo15UITableViewCell", "deinit"]
+- !private ["CSo15UITableViewCell", "mCellDelegate"]
+- !private ["CSo15UITableViewCell", "mMovieObject"]
+- !private ["CSo15UITableViewCell", "selectionStyle"]
+- !private ["OSC29UITableViewCellSelectionStyle", "None"]
+- ["CSo21UITableViewController", "Bool"]
+- !private ["CSo21UITableViewController", "HMFavoriteSelectorTableViewController"]
+- !private ["CSo21UITableViewController", "HMLovedMoviesTableViewController"]
+- ["CSo21UITableViewController", "HMMovieInfo"]
+- !private ["CSo21UITableViewController", "HMProductCell"]
+- !private ["CSo21UITableViewController", "HMSharedData"]
+- ["CSo21UITableViewController", "Int"]
+- ["CSo21UITableViewController", "NSIndexPath"]
+- !private ["CSo21UITableViewController", "UINib"]
+- ["CSo21UITableViewController", "UIRefreshControl"]
+- ["CSo21UITableViewController", "UITableView"]
+- ["CSo21UITableViewController", "UITableViewCell"]
+- ["CSo21UITableViewController", "didReceiveMemoryWarning"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "mCellID"]
+- ["CSo21UITableViewController", "mMovieList"]
+- !private ["CSo21UITableViewController", "mMovieObject"]
+- ["CSo21UITableViewController", "movieFavoriteButtonClicked"]
+- ["CSo21UITableViewController", "movieRemovedFromLoveList"]
+- !private ["CSo21UITableViewController", "navigationController"]
+- ["CSo21UITableViewController", "numberOfSectionsInTableView"]
+- !private ["CSo21UITableViewController", "refreshControl"]
+- ["CSo21UITableViewController", "refreshMovies"]
+- !private ["CSo21UITableViewController", "storyboard"]
+- ["CSo21UITableViewController", "tableView"]
+- ["CSo21UITableViewController", "viewDidLoad"]
+- ["CSo21UITableViewController", "viewWillAppear"]
+- ["CSo21UITableViewController", ""]
+- !private ["PSo21UITableViewDataSource", "HMLovedMoviesTableViewController"]
+- !private ["PSo21UITableViewDataSource", "HMSharedData"]
+- !private ["PSo21UITableViewDataSource", "UINib"]
+- !private ["PSo21UITableViewDataSource", "UIRefreshControl"]
+- ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
+- ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "mCellID"]
+- ["PSo21UITableViewDataSource", "mMovieList"]
+- !private ["PSo21UITableViewDataSource", "mMovieObject"]
+- ["PSo21UITableViewDataSource", "movieFavoriteButtonClicked"]
+- ["PSo21UITableViewDataSource", "movieRemovedFromLoveList"]
+- !private ["PSo21UITableViewDataSource", "navigationController"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- !private ["PSo21UITableViewDataSource", "refreshControl"]
+- ["PSo21UITableViewDataSource", "refreshMovies"]
+- !private ["PSo21UITableViewDataSource", "storyboard"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- ["PSo21UITableViewDataSource", "viewWillAppear"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "HMLovedMoviesTableViewController"]
+- !private ["PSo19UITableViewDelegate", "HMSharedData"]
+- !private ["PSo19UITableViewDelegate", "UINib"]
+- !private ["PSo19UITableViewDelegate", "UIRefreshControl"]
+- ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo19UITableViewDelegate", "init"]
+- ["PSo19UITableViewDelegate", "mCellID"]
+- ["PSo19UITableViewDelegate", "mMovieList"]
+- !private ["PSo19UITableViewDelegate", "mMovieObject"]
+- ["PSo19UITableViewDelegate", "movieFavoriteButtonClicked"]
+- ["PSo19UITableViewDelegate", "movieRemovedFromLoveList"]
+- !private ["PSo19UITableViewDelegate", "navigationController"]
+- ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- !private ["PSo19UITableViewDelegate", "refreshControl"]
+- ["PSo19UITableViewDelegate", "refreshMovies"]
+- !private ["PSo19UITableViewDelegate", "storyboard"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- ["PSo19UITableViewDelegate", "viewWillAppear"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["OSC23UITableViewRowAnimation", "Automatic"]
+- !private ["PSo18UITraitEnvironment", "HMLovedMoviesTableViewController"]
+- !private ["PSo18UITraitEnvironment", "HMSharedData"]
+- !private ["PSo18UITraitEnvironment", "UINib"]
+- !private ["PSo18UITraitEnvironment", "UIRefreshControl"]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- !private ["PSo18UITraitEnvironment", "deleteRowsAtIndexPaths"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "endRefreshing"]
+- !private ["PSo18UITraitEnvironment", "indexPathForCell"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "mCellDelegate"]
+- ["PSo18UITraitEnvironment", "mCellID"]
+- ["PSo18UITraitEnvironment", "mMovieList"]
+- !private ["PSo18UITraitEnvironment", "mMovieObject"]
+- ["PSo18UITraitEnvironment", "movieFavoriteButtonClicked"]
+- ["PSo18UITraitEnvironment", "movieRemovedFromLoveList"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "refreshControl"]
+- ["PSo18UITraitEnvironment", "refreshMovies"]
+- !private ["PSo18UITraitEnvironment", "registerNib"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["PSo18UITraitEnvironment", "selectionStyle"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- ["PSo18UITraitEnvironment", "tableView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addTarget"]
+- !private ["CSo6UIView", "deleteRowsAtIndexPaths"]
+- !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo6UIView", "endRefreshing"]
+- !private ["CSo6UIView", "indexPathForCell"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "mCellDelegate"]
+- !private ["CSo6UIView", "mMovieObject"]
+- !private ["CSo6UIView", "registerNib"]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "selectionStyle"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "HMFavoriteSelectorTableViewController"]
+- !private ["CSo16UIViewController", "HMLovedMoviesTableViewController"]
+- ["CSo16UIViewController", "HMMovieInfo"]
+- !private ["CSo16UIViewController", "HMProductCell"]
+- !private ["CSo16UIViewController", "HMSharedData"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSIndexPath"]
+- !private ["CSo16UIViewController", "UINib"]
+- ["CSo16UIViewController", "UIRefreshControl"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "UITableViewCell"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "mCellID"]
+- ["CSo16UIViewController", "mMovieList"]
+- !private ["CSo16UIViewController", "mMovieObject"]
+- ["CSo16UIViewController", "movieFavoriteButtonClicked"]
+- ["CSo16UIViewController", "movieRemovedFromLoveList"]
+- !private ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "numberOfSectionsInTableView"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- !private ["CSo16UIViewController", "refreshControl"]
+- ["CSo16UIViewController", "refreshMovies"]
+- !private ["CSo16UIViewController", "storyboard"]
+- ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "removeAll"]
+- !private ["Ps10_ArrayType", "removeAtIndex"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "removeAll"]
+- !private ["Ps24_DestructorSafeContainer", "removeAtIndex"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAtIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "addTarget"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "deleteRowsAtIndexPaths"]
+- !private ["Ps12_Reflectable", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps12_Reflectable", "endRefreshing"]
+- !private ["Ps12_Reflectable", "indexPathForCell"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "mCellDelegate"]
+- !private ["Ps12_Reflectable", "mMovieObject"]
+- !private ["Ps12_Reflectable", "registerNib"]
+- !private ["Ps12_Reflectable", "reloadData"]
+- !private ["Ps12_Reflectable", "removeAll"]
+- !private ["Ps12_Reflectable", "removeAtIndex"]
+- !private ["Ps12_Reflectable", "selectionStyle"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "C20AmazonProductBrowser37HMFavoriteSelectorTableViewController"
+- "C20AmazonProductBrowser32HMLovedMoviesTableViewController"
+- !private "C20AmazonProductBrowser13HMProductCell"
+- "P20AmazonProductBrowser21HMProductCellDelegate"
+- !private "C20AmazonProductBrowser12HMSharedData"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo11NSIndexPath"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "VSC15UIControlEvents"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo22UINavigationController"
+- !private "CSo5UINib"
+- !private "CSo16UIRefreshControl"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- !private "OSC29UITableViewCellSelectionStyle"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- !private "OSC23UITableViewRowAnimation"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser-Bridging-Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/common/CommonTypes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SavedForLaterItems.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoClassSchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoPropertySchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConstants.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoBindable.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/LoyaltyPoints.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors/Error.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/PackageDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Cart.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Merchant.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories/Accessory.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing/AvailabilityAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearch.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/UPCList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts/SimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/ImageSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems/CartModifyItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders/Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReview.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc/Track.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/EANList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments/Argument.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/StringWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Variations.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap/SearchIndex.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Image.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NonNegativeIntegerWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages/Language.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData/KeyValuePair.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OperationRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClear.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Creator.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems/CartAddItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offer.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Items.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/Subjects.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts/SimilarViewedProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionParent.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAdd.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CustomerReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreate.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Ancestors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Property.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Properties.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/DecimalWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/ItemDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Request.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet/TopItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem/ItemMetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers/TopSeller.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CorrectedQuery.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLinks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Price.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ImageSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/CatalogNumberList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases/NewRelease.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions/AlternateVersion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin/BinParameter.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/VariationAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts/OtherCategoriesSimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModify.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion/Summary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Children.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLink.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationAttribute.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/AWSECommerceServiceClient.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/client/AWSECommerceServicePortType_SOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConfig.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClientDefines.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/ColorWheel.h"
+interface-hash: "5f31754d386a783610ecc516f9539448"

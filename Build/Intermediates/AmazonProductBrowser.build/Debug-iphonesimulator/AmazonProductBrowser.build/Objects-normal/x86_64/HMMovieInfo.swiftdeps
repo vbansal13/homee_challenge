@@ -1,0 +1,470 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HMMovieInfo"
+provides-nominal:
+- "C20AmazonProductBrowser11HMMovieInfo"
+- "VC20AmazonProductBrowser11HMMovieInfo11PropertyKey"
+provides-member:
+- ["C20AmazonProductBrowser11HMMovieInfo", ""]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", ""]
+provides-dynamic-lookup:
+- "mFavoriteCateogry"
+- "mMovieId"
+- "fullPosterPath"
+- "mLove"
+- "encodeWithCoder"
+- "mBackdropPath"
+- "isMarkedWithGenre"
+- "mPosterPath"
+- "mOriginalTitle"
+depends-top-level:
+- !private "HMSharedData"
+- "BooleanLiteralType"
+- "String"
+- !private "=="
+- "HMMovieInfo"
+- "Int"
+- "NSCoder"
+- "NSObject"
+- "NSCoding"
+- "Bool"
+- "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "HMSharedData"]
+- !private ["Ps9AnyObject", "PropertyKey"]
+- !private ["Ps9AnyObject", "addToFavoriteList"]
+- !private ["Ps9AnyObject", "decodeBoolForKey"]
+- !private ["Ps9AnyObject", "decodeIntegerForKey"]
+- !private ["Ps9AnyObject", "decodeObjectForKey"]
+- !private ["Ps9AnyObject", "encodeBool"]
+- !private ["Ps9AnyObject", "encodeInteger"]
+- !private ["Ps9AnyObject", "encodeObject"]
+- ["Ps9AnyObject", "encodeWithCoder"]
+- ["Ps9AnyObject", "fullPosterPath"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isMarkedWithGenre"]
+- ["Ps9AnyObject", "mBackdropPath"]
+- !private ["Ps9AnyObject", "mBaseURLString"]
+- ["Ps9AnyObject", "mFavoriteCateogry"]
+- ["Ps9AnyObject", "mLove"]
+- ["Ps9AnyObject", "mMovieId"]
+- ["Ps9AnyObject", "mOriginalTitle"]
+- ["Ps9AnyObject", "mPosterPath"]
+- !private ["Ps9AnyObject", "removeFromLoveList"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "HMSharedData"]
+- !private ["Ps11CVarArgType", "PropertyKey"]
+- !private ["Ps11CVarArgType", "addToFavoriteList"]
+- !private ["Ps11CVarArgType", "decodeBoolForKey"]
+- !private ["Ps11CVarArgType", "decodeIntegerForKey"]
+- !private ["Ps11CVarArgType", "decodeObjectForKey"]
+- !private ["Ps11CVarArgType", "encodeBool"]
+- !private ["Ps11CVarArgType", "encodeInteger"]
+- !private ["Ps11CVarArgType", "encodeObject"]
+- ["Ps11CVarArgType", "encodeWithCoder"]
+- ["Ps11CVarArgType", "fullPosterPath"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isMarkedWithGenre"]
+- ["Ps11CVarArgType", "mBackdropPath"]
+- !private ["Ps11CVarArgType", "mBaseURLString"]
+- ["Ps11CVarArgType", "mFavoriteCateogry"]
+- ["Ps11CVarArgType", "mLove"]
+- ["Ps11CVarArgType", "mMovieId"]
+- ["Ps11CVarArgType", "mOriginalTitle"]
+- ["Ps11CVarArgType", "mPosterPath"]
+- !private ["Ps11CVarArgType", "removeFromLoveList"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "HMSharedData"]
+- !private ["Ps28CustomDebugStringConvertible", "PropertyKey"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "addToFavoriteList"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeBoolForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeIntegerForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeObjectForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeBool"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeInteger"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeObject"]
+- ["Ps28CustomDebugStringConvertible", "encodeWithCoder"]
+- ["Ps28CustomDebugStringConvertible", "fullPosterPath"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isMarkedWithGenre"]
+- ["Ps28CustomDebugStringConvertible", "mBackdropPath"]
+- !private ["Ps28CustomDebugStringConvertible", "mBaseURLString"]
+- ["Ps28CustomDebugStringConvertible", "mFavoriteCateogry"]
+- ["Ps28CustomDebugStringConvertible", "mLove"]
+- ["Ps28CustomDebugStringConvertible", "mMovieId"]
+- ["Ps28CustomDebugStringConvertible", "mOriginalTitle"]
+- ["Ps28CustomDebugStringConvertible", "mPosterPath"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "HMSharedData"]
+- !private ["Ps23CustomStringConvertible", "PropertyKey"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addToFavoriteList"]
+- !private ["Ps23CustomStringConvertible", "decodeBoolForKey"]
+- !private ["Ps23CustomStringConvertible", "decodeIntegerForKey"]
+- !private ["Ps23CustomStringConvertible", "decodeObjectForKey"]
+- !private ["Ps23CustomStringConvertible", "encodeBool"]
+- !private ["Ps23CustomStringConvertible", "encodeInteger"]
+- !private ["Ps23CustomStringConvertible", "encodeObject"]
+- ["Ps23CustomStringConvertible", "encodeWithCoder"]
+- ["Ps23CustomStringConvertible", "fullPosterPath"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isMarkedWithGenre"]
+- ["Ps23CustomStringConvertible", "mBackdropPath"]
+- !private ["Ps23CustomStringConvertible", "mBaseURLString"]
+- ["Ps23CustomStringConvertible", "mFavoriteCateogry"]
+- ["Ps23CustomStringConvertible", "mLove"]
+- ["Ps23CustomStringConvertible", "mMovieId"]
+- ["Ps23CustomStringConvertible", "mOriginalTitle"]
+- ["Ps23CustomStringConvertible", "mPosterPath"]
+- !private ["Ps23CustomStringConvertible", "removeFromLoveList"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "HMSharedData"]
+- !private ["Ps9Equatable", "PropertyKey"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addToFavoriteList"]
+- !private ["Ps9Equatable", "decodeBoolForKey"]
+- !private ["Ps9Equatable", "decodeIntegerForKey"]
+- !private ["Ps9Equatable", "decodeObjectForKey"]
+- !private ["Ps9Equatable", "encodeBool"]
+- !private ["Ps9Equatable", "encodeInteger"]
+- !private ["Ps9Equatable", "encodeObject"]
+- ["Ps9Equatable", "encodeWithCoder"]
+- ["Ps9Equatable", "fullPosterPath"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isMarkedWithGenre"]
+- ["Ps9Equatable", "mBackdropPath"]
+- !private ["Ps9Equatable", "mBaseURLString"]
+- ["Ps9Equatable", "mFavoriteCateogry"]
+- ["Ps9Equatable", "mLove"]
+- ["Ps9Equatable", "mMovieId"]
+- ["Ps9Equatable", "mOriginalTitle"]
+- ["Ps9Equatable", "mPosterPath"]
+- !private ["Ps9Equatable", "removeFromLoveList"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", ""]
+- ["C20AmazonProductBrowser11HMMovieInfo", "Bool"]
+- !private ["C20AmazonProductBrowser11HMMovieInfo", "HMSharedData"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "Int"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "NSCoder"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "PropertyKey"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "String"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "deinit"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "encodeWithCoder"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "fullPosterPath"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "init"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "isMarkedWithGenre"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "mBackdropPath"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "mFavoriteCateogry"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "mLove"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "mMovieId"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "mOriginalTitle"]
+- ["C20AmazonProductBrowser11HMMovieInfo", "mPosterPath"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "addToFavoriteList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "mBaseURLString"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "removeFromLoveList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "sharedInstance"]
+- !private ["Ps8Hashable", "HMSharedData"]
+- !private ["Ps8Hashable", "PropertyKey"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addToFavoriteList"]
+- !private ["Ps8Hashable", "decodeBoolForKey"]
+- !private ["Ps8Hashable", "decodeIntegerForKey"]
+- !private ["Ps8Hashable", "decodeObjectForKey"]
+- !private ["Ps8Hashable", "encodeBool"]
+- !private ["Ps8Hashable", "encodeInteger"]
+- !private ["Ps8Hashable", "encodeObject"]
+- ["Ps8Hashable", "encodeWithCoder"]
+- ["Ps8Hashable", "fullPosterPath"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isMarkedWithGenre"]
+- ["Ps8Hashable", "mBackdropPath"]
+- !private ["Ps8Hashable", "mBaseURLString"]
+- ["Ps8Hashable", "mFavoriteCateogry"]
+- ["Ps8Hashable", "mLove"]
+- ["Ps8Hashable", "mMovieId"]
+- ["Ps8Hashable", "mOriginalTitle"]
+- ["Ps8Hashable", "mPosterPath"]
+- !private ["Ps8Hashable", "removeFromLoveList"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", ""]
+- !private ["CSo7NSCoder", "decodeBoolForKey"]
+- !private ["CSo7NSCoder", "decodeIntegerForKey"]
+- !private ["CSo7NSCoder", "decodeObjectForKey"]
+- !private ["CSo7NSCoder", "encodeBool"]
+- !private ["CSo7NSCoder", "encodeInteger"]
+- !private ["CSo7NSCoder", "encodeObject"]
+- !private ["PSo8NSCoding", "HMSharedData"]
+- !private ["PSo8NSCoding", "PropertyKey"]
+- ["PSo8NSCoding", "encodeWithCoder"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mBackdropPath"]
+- !private ["PSo8NSCoding", "mFavoriteCateogry"]
+- !private ["PSo8NSCoding", "mLove"]
+- !private ["PSo8NSCoding", "mMovieId"]
+- !private ["PSo8NSCoding", "mOriginalTitle"]
+- !private ["PSo8NSCoding", "mPosterPath"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "HMSharedData"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "PropertyKey"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "addToFavoriteList"]
+- !private ["CSo8NSObject", "decodeBoolForKey"]
+- !private ["CSo8NSObject", "decodeIntegerForKey"]
+- !private ["CSo8NSObject", "decodeObjectForKey"]
+- !private ["CSo8NSObject", "encodeBool"]
+- !private ["CSo8NSObject", "encodeInteger"]
+- !private ["CSo8NSObject", "encodeObject"]
+- ["CSo8NSObject", "encodeWithCoder"]
+- ["CSo8NSObject", "fullPosterPath"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isMarkedWithGenre"]
+- ["CSo8NSObject", "mBackdropPath"]
+- !private ["CSo8NSObject", "mBaseURLString"]
+- ["CSo8NSObject", "mFavoriteCateogry"]
+- ["CSo8NSObject", "mLove"]
+- ["CSo8NSObject", "mMovieId"]
+- ["CSo8NSObject", "mOriginalTitle"]
+- ["CSo8NSObject", "mPosterPath"]
+- !private ["CSo8NSObject", "removeFromLoveList"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "HMSharedData"]
+- !private ["PSo16NSObjectProtocol", "PropertyKey"]
+- !private ["PSo16NSObjectProtocol", "addToFavoriteList"]
+- !private ["PSo16NSObjectProtocol", "decodeBoolForKey"]
+- !private ["PSo16NSObjectProtocol", "decodeIntegerForKey"]
+- !private ["PSo16NSObjectProtocol", "decodeObjectForKey"]
+- !private ["PSo16NSObjectProtocol", "encodeBool"]
+- !private ["PSo16NSObjectProtocol", "encodeInteger"]
+- !private ["PSo16NSObjectProtocol", "encodeObject"]
+- ["PSo16NSObjectProtocol", "encodeWithCoder"]
+- ["PSo16NSObjectProtocol", "fullPosterPath"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isMarkedWithGenre"]
+- ["PSo16NSObjectProtocol", "mBackdropPath"]
+- !private ["PSo16NSObjectProtocol", "mBaseURLString"]
+- ["PSo16NSObjectProtocol", "mFavoriteCateogry"]
+- ["PSo16NSObjectProtocol", "mLove"]
+- ["PSo16NSObjectProtocol", "mMovieId"]
+- ["PSo16NSObjectProtocol", "mOriginalTitle"]
+- ["PSo16NSObjectProtocol", "mPosterPath"]
+- !private ["PSo16NSObjectProtocol", "removeFromLoveList"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", "backdropPathKey"]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", "favoriteCategoryKey"]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", "idKey"]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", "init"]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", "loveKey"]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", "posterPathKey"]
+- ["VC20AmazonProductBrowser11HMMovieInfo11PropertyKey", "titleKey"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["SS", "deinit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C20AmazonProductBrowser11HMMovieInfo"
+- !private "C20AmazonProductBrowser12HMSharedData"
+- "Ps8Hashable"
+- !private "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "VC20AmazonProductBrowser11HMMovieInfo11PropertyKey"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser-Bridging-Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/common/CommonTypes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SavedForLaterItems.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoClassSchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoPropertySchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConstants.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoBindable.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/LoyaltyPoints.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors/Error.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/PackageDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Cart.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Merchant.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories/Accessory.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing/AvailabilityAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearch.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/UPCList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts/SimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/ImageSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems/CartModifyItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders/Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReview.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc/Track.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/EANList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments/Argument.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/StringWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Variations.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap/SearchIndex.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Image.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NonNegativeIntegerWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages/Language.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData/KeyValuePair.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OperationRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClear.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Creator.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems/CartAddItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offer.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Items.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/Subjects.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts/SimilarViewedProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionParent.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAdd.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CustomerReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreate.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Ancestors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Property.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Properties.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/DecimalWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/ItemDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Request.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet/TopItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem/ItemMetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers/TopSeller.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CorrectedQuery.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLinks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Price.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ImageSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/CatalogNumberList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases/NewRelease.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions/AlternateVersion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin/BinParameter.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/VariationAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts/OtherCategoriesSimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModify.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion/Summary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Children.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLink.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationAttribute.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/AWSECommerceServiceClient.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/client/AWSECommerceServicePortType_SOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConfig.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClientDefines.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/ColorWheel.h"
+interface-hash: "c8183d6b0c71135f166d7871c11a047f"

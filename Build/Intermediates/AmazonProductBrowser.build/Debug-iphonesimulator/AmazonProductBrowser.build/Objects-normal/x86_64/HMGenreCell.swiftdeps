@@ -1,0 +1,320 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HMGenreCell"
+provides-nominal:
+- "C20AmazonProductBrowser11HMGenreCell"
+provides-member:
+- ["C20AmazonProductBrowser11HMGenreCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "setSelected"
+- "inputField"
+depends-top-level:
+- "UITextField"
+- "HMGenreCell"
+- "Bool"
+- "UITableViewCell"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "inputField"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "inputField"]
+- ["Ps11CVarArgType", "setSelected"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "inputField"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "inputField"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "inputField"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", ""]
+- ["C20AmazonProductBrowser11HMGenreCell", "Bool"]
+- ["C20AmazonProductBrowser11HMGenreCell", "UITextField"]
+- ["C20AmazonProductBrowser11HMGenreCell", "awakeFromNib"]
+- ["C20AmazonProductBrowser11HMGenreCell", "deinit"]
+- ["C20AmazonProductBrowser11HMGenreCell", "init"]
+- ["C20AmazonProductBrowser11HMGenreCell", "inputField"]
+- ["C20AmazonProductBrowser11HMGenreCell", "setSelected"]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "inputField"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "inputField"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "inputField"]
+- ["CSo8NSObject", "setSelected"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "inputField"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "inputField"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "inputField"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "inputField"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "inputField"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "inputField"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "inputField"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "inputField"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "inputField"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UITextField"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "inputField"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "inputField"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UITextField"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "inputField"]
+- ["CSo6UIView", "setSelected"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "inputField"]
+- ["Ps12_Reflectable", "setSelected"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C20AmazonProductBrowser11HMGenreCell"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser-Bridging-Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/common/CommonTypes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SavedForLaterItems.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoClassSchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoPropertySchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConstants.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoBindable.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/LoyaltyPoints.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors/Error.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/PackageDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Cart.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Merchant.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories/Accessory.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing/AvailabilityAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearch.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/UPCList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts/SimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/ImageSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems/CartModifyItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders/Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReview.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc/Track.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/EANList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments/Argument.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/StringWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Variations.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap/SearchIndex.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Image.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NonNegativeIntegerWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages/Language.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData/KeyValuePair.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OperationRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClear.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Creator.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems/CartAddItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offer.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Items.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/Subjects.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts/SimilarViewedProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionParent.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAdd.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CustomerReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreate.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Ancestors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Property.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Properties.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/DecimalWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/ItemDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Request.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet/TopItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem/ItemMetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers/TopSeller.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CorrectedQuery.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLinks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Price.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ImageSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/CatalogNumberList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases/NewRelease.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions/AlternateVersion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin/BinParameter.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/VariationAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts/OtherCategoriesSimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModify.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion/Summary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Children.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLink.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationAttribute.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/AWSECommerceServiceClient.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/client/AWSECommerceServicePortType_SOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConfig.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClientDefines.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/ColorWheel.h"
+interface-hash: "794338c2adc758989acc0b5aa5f03e8c"

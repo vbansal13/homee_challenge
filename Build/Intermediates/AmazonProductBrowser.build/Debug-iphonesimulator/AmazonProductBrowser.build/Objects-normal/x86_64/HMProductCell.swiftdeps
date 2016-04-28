@@ -1,0 +1,803 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HMProductCellDelegate"
+- "HMProductCell"
+provides-nominal:
+- "P20AmazonProductBrowser21HMProductCellDelegate"
+- "C20AmazonProductBrowser13HMProductCell"
+provides-member:
+- ["P20AmazonProductBrowser21HMProductCellDelegate", ""]
+- ["C20AmazonProductBrowser13HMProductCell", ""]
+provides-dynamic-lookup:
+- "mLoveButton"
+- "setSelected"
+- "mCellDelegate"
+- "mTitle"
+- "movieFavoriteButtonClicked"
+- "awakeFromNib"
+- "mFavoriteButton"
+- "favoriteButtonClicked"
+- "movieRemovedFromLoveList"
+- "mImageView"
+- "loveButtonClicked"
+- "mMovieObject"
+depends-top-level:
+- "AnyObject"
+- !private "UIImage"
+- "HMMovieInfo"
+- "UILabel"
+- "Bool"
+- "HMProductCellDelegate"
+- "UIButton"
+- !private "HMSharedData"
+- !private "NSURL"
+- "UITableViewCell"
+- "UIImageView"
+- !private "!"
+- !private "StringLiteralType"
+- "HMProductCell"
+depends-member:
+- !private ["Ps9AnyObject", "HMSharedData"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "addToLoveList"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "favoriteButtonClicked"]
+- !private ["Ps9AnyObject", "fullPosterPath"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isInFavoriteList"]
+- !private ["Ps9AnyObject", "isInLoveList"]
+- ["Ps9AnyObject", "loveButtonClicked"]
+- ["Ps9AnyObject", "mCellDelegate"]
+- ["Ps9AnyObject", "mFavoriteButton"]
+- ["Ps9AnyObject", "mImageView"]
+- !private ["Ps9AnyObject", "mLove"]
+- ["Ps9AnyObject", "mLoveButton"]
+- ["Ps9AnyObject", "mMovieObject"]
+- !private ["Ps9AnyObject", "mOriginalTitle"]
+- ["Ps9AnyObject", "mTitle"]
+- !private ["Ps9AnyObject", "removeFromLoveList"]
+- !private ["Ps9AnyObject", "setImage"]
+- !private ["Ps9AnyObject", "setImageWithURL"]
+- ["Ps9AnyObject", "setSelected"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "superview"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "Normal"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "HMSharedData"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "addToLoveList"]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- ["Ps11CVarArgType", "favoriteButtonClicked"]
+- !private ["Ps11CVarArgType", "fullPosterPath"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isInFavoriteList"]
+- !private ["Ps11CVarArgType", "isInLoveList"]
+- ["Ps11CVarArgType", "loveButtonClicked"]
+- ["Ps11CVarArgType", "mCellDelegate"]
+- ["Ps11CVarArgType", "mFavoriteButton"]
+- ["Ps11CVarArgType", "mImageView"]
+- !private ["Ps11CVarArgType", "mLove"]
+- ["Ps11CVarArgType", "mLoveButton"]
+- ["Ps11CVarArgType", "mMovieObject"]
+- !private ["Ps11CVarArgType", "mOriginalTitle"]
+- ["Ps11CVarArgType", "mTitle"]
+- !private ["Ps11CVarArgType", "removeFromLoveList"]
+- !private ["Ps11CVarArgType", "setImage"]
+- !private ["Ps11CVarArgType", "setImageWithURL"]
+- ["Ps11CVarArgType", "setSelected"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
+- !private ["Ps11CVarArgType", "superview"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "HMSharedData"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "addToLoveList"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "favoriteButtonClicked"]
+- !private ["Ps28CustomDebugStringConvertible", "fullPosterPath"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isInFavoriteList"]
+- !private ["Ps28CustomDebugStringConvertible", "isInLoveList"]
+- ["Ps28CustomDebugStringConvertible", "loveButtonClicked"]
+- ["Ps28CustomDebugStringConvertible", "mCellDelegate"]
+- ["Ps28CustomDebugStringConvertible", "mFavoriteButton"]
+- ["Ps28CustomDebugStringConvertible", "mImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "mLove"]
+- ["Ps28CustomDebugStringConvertible", "mLoveButton"]
+- ["Ps28CustomDebugStringConvertible", "mMovieObject"]
+- !private ["Ps28CustomDebugStringConvertible", "mOriginalTitle"]
+- ["Ps28CustomDebugStringConvertible", "mTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "setImage"]
+- !private ["Ps28CustomDebugStringConvertible", "setImageWithURL"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "superview"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "HMSharedData"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addToLoveList"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "favoriteButtonClicked"]
+- !private ["Ps23CustomStringConvertible", "fullPosterPath"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isInFavoriteList"]
+- !private ["Ps23CustomStringConvertible", "isInLoveList"]
+- ["Ps23CustomStringConvertible", "loveButtonClicked"]
+- ["Ps23CustomStringConvertible", "mCellDelegate"]
+- ["Ps23CustomStringConvertible", "mFavoriteButton"]
+- ["Ps23CustomStringConvertible", "mImageView"]
+- !private ["Ps23CustomStringConvertible", "mLove"]
+- ["Ps23CustomStringConvertible", "mLoveButton"]
+- ["Ps23CustomStringConvertible", "mMovieObject"]
+- !private ["Ps23CustomStringConvertible", "mOriginalTitle"]
+- ["Ps23CustomStringConvertible", "mTitle"]
+- !private ["Ps23CustomStringConvertible", "removeFromLoveList"]
+- !private ["Ps23CustomStringConvertible", "setImage"]
+- !private ["Ps23CustomStringConvertible", "setImageWithURL"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "superview"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "HMSharedData"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "Normal"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addToLoveList"]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "favoriteButtonClicked"]
+- !private ["Ps9Equatable", "fullPosterPath"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isInFavoriteList"]
+- !private ["Ps9Equatable", "isInLoveList"]
+- ["Ps9Equatable", "loveButtonClicked"]
+- ["Ps9Equatable", "mCellDelegate"]
+- ["Ps9Equatable", "mFavoriteButton"]
+- ["Ps9Equatable", "mImageView"]
+- !private ["Ps9Equatable", "mLove"]
+- ["Ps9Equatable", "mLoveButton"]
+- ["Ps9Equatable", "mMovieObject"]
+- !private ["Ps9Equatable", "mOriginalTitle"]
+- ["Ps9Equatable", "mTitle"]
+- !private ["Ps9Equatable", "removeFromLoveList"]
+- !private ["Ps9Equatable", "setImage"]
+- !private ["Ps9Equatable", "setImageWithURL"]
+- ["Ps9Equatable", "setSelected"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "superview"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", ""]
+- !private ["C20AmazonProductBrowser11HMMovieInfo", "fullPosterPath"]
+- !private ["C20AmazonProductBrowser11HMMovieInfo", "mLove"]
+- !private ["C20AmazonProductBrowser11HMMovieInfo", "mOriginalTitle"]
+- ["C20AmazonProductBrowser13HMProductCell", "AnyObject"]
+- ["C20AmazonProductBrowser13HMProductCell", "Bool"]
+- ["C20AmazonProductBrowser13HMProductCell", "HMMovieInfo"]
+- ["C20AmazonProductBrowser13HMProductCell", "HMProductCellDelegate"]
+- !private ["C20AmazonProductBrowser13HMProductCell", "HMSharedData"]
+- !private ["C20AmazonProductBrowser13HMProductCell", "NSURL"]
+- ["C20AmazonProductBrowser13HMProductCell", "UIButton"]
+- !private ["C20AmazonProductBrowser13HMProductCell", "UIImage"]
+- ["C20AmazonProductBrowser13HMProductCell", "UIImageView"]
+- ["C20AmazonProductBrowser13HMProductCell", "UILabel"]
+- !private ["C20AmazonProductBrowser13HMProductCell", "UITableViewCell"]
+- ["C20AmazonProductBrowser13HMProductCell", "awakeFromNib"]
+- ["C20AmazonProductBrowser13HMProductCell", "deinit"]
+- ["C20AmazonProductBrowser13HMProductCell", "favoriteButtonClicked"]
+- ["C20AmazonProductBrowser13HMProductCell", "init"]
+- ["C20AmazonProductBrowser13HMProductCell", "loveButtonClicked"]
+- ["C20AmazonProductBrowser13HMProductCell", "mCellDelegate"]
+- ["C20AmazonProductBrowser13HMProductCell", "mFavoriteButton"]
+- ["C20AmazonProductBrowser13HMProductCell", "mImageView"]
+- ["C20AmazonProductBrowser13HMProductCell", "mLoveButton"]
+- ["C20AmazonProductBrowser13HMProductCell", "mMovieObject"]
+- ["C20AmazonProductBrowser13HMProductCell", "mTitle"]
+- ["C20AmazonProductBrowser13HMProductCell", "setSelected"]
+- ["P20AmazonProductBrowser21HMProductCellDelegate", "HMMovieInfo"]
+- ["P20AmazonProductBrowser21HMProductCellDelegate", "UITableViewCell"]
+- ["P20AmazonProductBrowser21HMProductCellDelegate", "movieFavoriteButtonClicked"]
+- ["P20AmazonProductBrowser21HMProductCellDelegate", "movieRemovedFromLoveList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "addToLoveList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "isInFavoriteList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "isInLoveList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "removeFromLoveList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "sharedInstance"]
+- !private ["Ps8Hashable", "HMSharedData"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addToLoveList"]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "favoriteButtonClicked"]
+- !private ["Ps8Hashable", "fullPosterPath"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isInFavoriteList"]
+- !private ["Ps8Hashable", "isInLoveList"]
+- ["Ps8Hashable", "loveButtonClicked"]
+- ["Ps8Hashable", "mCellDelegate"]
+- ["Ps8Hashable", "mFavoriteButton"]
+- ["Ps8Hashable", "mImageView"]
+- !private ["Ps8Hashable", "mLove"]
+- ["Ps8Hashable", "mLoveButton"]
+- ["Ps8Hashable", "mMovieObject"]
+- !private ["Ps8Hashable", "mOriginalTitle"]
+- ["Ps8Hashable", "mTitle"]
+- !private ["Ps8Hashable", "removeFromLoveList"]
+- !private ["Ps8Hashable", "setImage"]
+- !private ["Ps8Hashable", "setImageWithURL"]
+- ["Ps8Hashable", "setSelected"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "superview"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "HMSharedData"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "favoriteButtonClicked"]
+- !private ["PSo8NSCoding", "fullPosterPath"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loveButtonClicked"]
+- ["PSo8NSCoding", "mCellDelegate"]
+- ["PSo8NSCoding", "mFavoriteButton"]
+- ["PSo8NSCoding", "mImageView"]
+- !private ["PSo8NSCoding", "mLove"]
+- ["PSo8NSCoding", "mLoveButton"]
+- ["PSo8NSCoding", "mMovieObject"]
+- !private ["PSo8NSCoding", "mOriginalTitle"]
+- ["PSo8NSCoding", "mTitle"]
+- !private ["PSo8NSCoding", "setImage"]
+- !private ["PSo8NSCoding", "setImageWithURL"]
+- ["PSo8NSCoding", "setSelected"]
+- !private ["PSo8NSCoding", "superview"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "HMMovieInfo"]
+- ["CSo8NSObject", "HMProductCellDelegate"]
+- !private ["CSo8NSObject", "HMSharedData"]
+- !private ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "addToLoveList"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "favoriteButtonClicked"]
+- !private ["CSo8NSObject", "fullPosterPath"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isInFavoriteList"]
+- !private ["CSo8NSObject", "isInLoveList"]
+- ["CSo8NSObject", "loveButtonClicked"]
+- ["CSo8NSObject", "mCellDelegate"]
+- ["CSo8NSObject", "mFavoriteButton"]
+- ["CSo8NSObject", "mImageView"]
+- !private ["CSo8NSObject", "mLove"]
+- ["CSo8NSObject", "mLoveButton"]
+- ["CSo8NSObject", "mMovieObject"]
+- !private ["CSo8NSObject", "mOriginalTitle"]
+- ["CSo8NSObject", "mTitle"]
+- !private ["CSo8NSObject", "removeFromLoveList"]
+- !private ["CSo8NSObject", "setImage"]
+- !private ["CSo8NSObject", "setImageWithURL"]
+- ["CSo8NSObject", "setSelected"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "superview"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "HMSharedData"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "addToLoveList"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "favoriteButtonClicked"]
+- !private ["PSo16NSObjectProtocol", "fullPosterPath"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isInFavoriteList"]
+- !private ["PSo16NSObjectProtocol", "isInLoveList"]
+- ["PSo16NSObjectProtocol", "loveButtonClicked"]
+- ["PSo16NSObjectProtocol", "mCellDelegate"]
+- ["PSo16NSObjectProtocol", "mFavoriteButton"]
+- ["PSo16NSObjectProtocol", "mImageView"]
+- !private ["PSo16NSObjectProtocol", "mLove"]
+- ["PSo16NSObjectProtocol", "mLoveButton"]
+- ["PSo16NSObjectProtocol", "mMovieObject"]
+- !private ["PSo16NSObjectProtocol", "mOriginalTitle"]
+- ["PSo16NSObjectProtocol", "mTitle"]
+- !private ["PSo16NSObjectProtocol", "removeFromLoveList"]
+- !private ["PSo16NSObjectProtocol", "setImage"]
+- !private ["PSo16NSObjectProtocol", "setImageWithURL"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "superview"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo5NSURL", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps13OptionSetType", "Normal"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Normal"]
+- !private ["Ps14SetAlgebraType", "Normal"]
+- !private ["PSo29UIAccessibilityIdentification", "HMSharedData"]
+- !private ["PSo29UIAccessibilityIdentification", "NSURL"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "favoriteButtonClicked"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "loveButtonClicked"]
+- ["PSo29UIAccessibilityIdentification", "mCellDelegate"]
+- ["PSo29UIAccessibilityIdentification", "mFavoriteButton"]
+- ["PSo29UIAccessibilityIdentification", "mImageView"]
+- ["PSo29UIAccessibilityIdentification", "mLoveButton"]
+- ["PSo29UIAccessibilityIdentification", "mMovieObject"]
+- ["PSo29UIAccessibilityIdentification", "mTitle"]
+- !private ["PSo29UIAccessibilityIdentification", "setImage"]
+- !private ["PSo29UIAccessibilityIdentification", "setImageWithURL"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- !private ["PSo29UIAccessibilityIdentification", "superview"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "HMSharedData"]
+- !private ["PSo12UIAppearance", "NSURL"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "favoriteButtonClicked"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "loveButtonClicked"]
+- ["PSo12UIAppearance", "mCellDelegate"]
+- ["PSo12UIAppearance", "mFavoriteButton"]
+- ["PSo12UIAppearance", "mImageView"]
+- ["PSo12UIAppearance", "mLoveButton"]
+- ["PSo12UIAppearance", "mMovieObject"]
+- ["PSo12UIAppearance", "mTitle"]
+- !private ["PSo12UIAppearance", "setImage"]
+- !private ["PSo12UIAppearance", "setImageWithURL"]
+- ["PSo12UIAppearance", "setSelected"]
+- !private ["PSo12UIAppearance", "superview"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "HMSharedData"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "favoriteButtonClicked"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loveButtonClicked"]
+- ["PSo21UIAppearanceContainer", "mCellDelegate"]
+- ["PSo21UIAppearanceContainer", "mFavoriteButton"]
+- ["PSo21UIAppearanceContainer", "mImageView"]
+- ["PSo21UIAppearanceContainer", "mLoveButton"]
+- ["PSo21UIAppearanceContainer", "mMovieObject"]
+- ["PSo21UIAppearanceContainer", "mTitle"]
+- !private ["PSo21UIAppearanceContainer", "setImage"]
+- !private ["PSo21UIAppearanceContainer", "setImageWithURL"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- !private ["PSo21UIAppearanceContainer", "superview"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "setImage"]
+- !private ["CSo9UIControl", "setImage"]
+- !private ["VSC14UIControlState", "Normal"]
+- !private ["PSo17UICoordinateSpace", "HMSharedData"]
+- !private ["PSo17UICoordinateSpace", "NSURL"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "favoriteButtonClicked"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "loveButtonClicked"]
+- ["PSo17UICoordinateSpace", "mCellDelegate"]
+- ["PSo17UICoordinateSpace", "mFavoriteButton"]
+- ["PSo17UICoordinateSpace", "mImageView"]
+- ["PSo17UICoordinateSpace", "mLoveButton"]
+- ["PSo17UICoordinateSpace", "mMovieObject"]
+- ["PSo17UICoordinateSpace", "mTitle"]
+- !private ["PSo17UICoordinateSpace", "setImage"]
+- !private ["PSo17UICoordinateSpace", "setImageWithURL"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- !private ["PSo17UICoordinateSpace", "superview"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "HMSharedData"]
+- !private ["PSo13UIDynamicItem", "NSURL"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "favoriteButtonClicked"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "loveButtonClicked"]
+- ["PSo13UIDynamicItem", "mCellDelegate"]
+- ["PSo13UIDynamicItem", "mFavoriteButton"]
+- ["PSo13UIDynamicItem", "mImageView"]
+- ["PSo13UIDynamicItem", "mLoveButton"]
+- ["PSo13UIDynamicItem", "mMovieObject"]
+- ["PSo13UIDynamicItem", "mTitle"]
+- !private ["PSo13UIDynamicItem", "setImage"]
+- !private ["PSo13UIDynamicItem", "setImageWithURL"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- !private ["PSo13UIDynamicItem", "superview"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "HMSharedData"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "favoriteButtonClicked"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loveButtonClicked"]
+- ["PSo18UIFocusEnvironment", "mCellDelegate"]
+- ["PSo18UIFocusEnvironment", "mFavoriteButton"]
+- ["PSo18UIFocusEnvironment", "mImageView"]
+- ["PSo18UIFocusEnvironment", "mLoveButton"]
+- ["PSo18UIFocusEnvironment", "mMovieObject"]
+- ["PSo18UIFocusEnvironment", "mTitle"]
+- !private ["PSo18UIFocusEnvironment", "setImage"]
+- !private ["PSo18UIFocusEnvironment", "setImageWithURL"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- !private ["PSo18UIFocusEnvironment", "superview"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "HMSharedData"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSURL"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIImage"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "favoriteButtonClicked"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "loveButtonClicked"]
+- ["PSo27UIGestureRecognizerDelegate", "mCellDelegate"]
+- ["PSo27UIGestureRecognizerDelegate", "mFavoriteButton"]
+- ["PSo27UIGestureRecognizerDelegate", "mImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "mLoveButton"]
+- ["PSo27UIGestureRecognizerDelegate", "mMovieObject"]
+- ["PSo27UIGestureRecognizerDelegate", "mTitle"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "setImageWithURL"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "HMMovieInfo"]
+- ["CSo11UIResponder", "HMProductCellDelegate"]
+- !private ["CSo11UIResponder", "HMSharedData"]
+- !private ["CSo11UIResponder", "NSURL"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UITableViewCell"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "favoriteButtonClicked"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loveButtonClicked"]
+- ["CSo11UIResponder", "mCellDelegate"]
+- ["CSo11UIResponder", "mFavoriteButton"]
+- ["CSo11UIResponder", "mImageView"]
+- ["CSo11UIResponder", "mLoveButton"]
+- ["CSo11UIResponder", "mMovieObject"]
+- ["CSo11UIResponder", "mTitle"]
+- !private ["CSo11UIResponder", "setImage"]
+- !private ["CSo11UIResponder", "setImageWithURL"]
+- ["CSo11UIResponder", "setSelected"]
+- !private ["CSo11UIResponder", "superview"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo15UITableViewCell", "AnyObject"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "HMMovieInfo"]
+- ["CSo15UITableViewCell", "HMProductCellDelegate"]
+- !private ["CSo15UITableViewCell", "HMSharedData"]
+- !private ["CSo15UITableViewCell", "NSURL"]
+- ["CSo15UITableViewCell", "UIButton"]
+- !private ["CSo15UITableViewCell", "UIImage"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- !private ["CSo15UITableViewCell", "UITableViewCell"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "favoriteButtonClicked"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "loveButtonClicked"]
+- ["CSo15UITableViewCell", "mCellDelegate"]
+- ["CSo15UITableViewCell", "mFavoriteButton"]
+- ["CSo15UITableViewCell", "mImageView"]
+- ["CSo15UITableViewCell", "mLoveButton"]
+- ["CSo15UITableViewCell", "mMovieObject"]
+- ["CSo15UITableViewCell", "mTitle"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "HMSharedData"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "favoriteButtonClicked"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loveButtonClicked"]
+- ["PSo18UITraitEnvironment", "mCellDelegate"]
+- ["PSo18UITraitEnvironment", "mFavoriteButton"]
+- ["PSo18UITraitEnvironment", "mImageView"]
+- ["PSo18UITraitEnvironment", "mLoveButton"]
+- ["PSo18UITraitEnvironment", "mMovieObject"]
+- ["PSo18UITraitEnvironment", "mTitle"]
+- !private ["PSo18UITraitEnvironment", "setImage"]
+- !private ["PSo18UITraitEnvironment", "setImageWithURL"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- !private ["PSo18UITraitEnvironment", "superview"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AnyObject"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "HMMovieInfo"]
+- ["CSo6UIView", "HMProductCellDelegate"]
+- !private ["CSo6UIView", "HMSharedData"]
+- !private ["CSo6UIView", "NSURL"]
+- ["CSo6UIView", "UIButton"]
+- !private ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "UITableViewCell"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "favoriteButtonClicked"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "loveButtonClicked"]
+- ["CSo6UIView", "mCellDelegate"]
+- ["CSo6UIView", "mFavoriteButton"]
+- ["CSo6UIView", "mImageView"]
+- ["CSo6UIView", "mLoveButton"]
+- ["CSo6UIView", "mMovieObject"]
+- ["CSo6UIView", "mTitle"]
+- !private ["CSo6UIView", "setImage"]
+- !private ["CSo6UIView", "setImageWithURL"]
+- ["CSo6UIView", "setSelected"]
+- !private ["CSo6UIView", "superview"]
+- !private ["CSo6UIView", "text"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "HMSharedData"]
+- !private ["Ps12_Reflectable", "NSURL"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "UIImage"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "favoriteButtonClicked"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "loveButtonClicked"]
+- ["Ps12_Reflectable", "mCellDelegate"]
+- ["Ps12_Reflectable", "mFavoriteButton"]
+- ["Ps12_Reflectable", "mImageView"]
+- ["Ps12_Reflectable", "mLoveButton"]
+- ["Ps12_Reflectable", "mMovieObject"]
+- ["Ps12_Reflectable", "mTitle"]
+- !private ["Ps12_Reflectable", "setImage"]
+- !private ["Ps12_Reflectable", "setImageWithURL"]
+- ["Ps12_Reflectable", "setSelected"]
+- !private ["Ps12_Reflectable", "superview"]
+- !private ["Ps12_Reflectable", "text"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "C20AmazonProductBrowser11HMMovieInfo"
+- "C20AmazonProductBrowser13HMProductCell"
+- "P20AmazonProductBrowser21HMProductCellDelegate"
+- !private "C20AmazonProductBrowser12HMSharedData"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps14SetAlgebraType"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "CSo9UIControl"
+- !private "VSC14UIControlState"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+- !private "superview"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser-Bridging-Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/common/CommonTypes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SavedForLaterItems.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoClassSchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoPropertySchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConstants.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoBindable.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/LoyaltyPoints.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors/Error.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/PackageDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Cart.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Merchant.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories/Accessory.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing/AvailabilityAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearch.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/UPCList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts/SimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/ImageSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems/CartModifyItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders/Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReview.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc/Track.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/EANList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments/Argument.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/StringWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Variations.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap/SearchIndex.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Image.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NonNegativeIntegerWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages/Language.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData/KeyValuePair.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OperationRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClear.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Creator.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems/CartAddItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offer.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Items.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/Subjects.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts/SimilarViewedProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionParent.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAdd.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CustomerReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreate.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Ancestors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Property.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Properties.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/DecimalWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/ItemDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Request.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet/TopItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem/ItemMetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers/TopSeller.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CorrectedQuery.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLinks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Price.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ImageSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/CatalogNumberList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases/NewRelease.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions/AlternateVersion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin/BinParameter.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/VariationAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts/OtherCategoriesSimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModify.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion/Summary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Children.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLink.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationAttribute.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/AWSECommerceServiceClient.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/client/AWSECommerceServicePortType_SOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConfig.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClientDefines.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/ColorWheel.h"
+interface-hash: "40d85fc6130af8708ae3a9e76db2e2c6"

@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "4f37ecdabf2174d6346b4a3da6dced68"
+build_time: [515181832, 399396000]
+inputs:
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMFavoriteTableViewController.swift": [515181551, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMFavoriteSelectorTableViewController.swift": [515181434, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMLovedMoviesTableViewController.swift": [515181201, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMMoviesTableViewController.swift": [515179629, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMFavoriteMoviesTableViewController.swift": [515181426, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMMovieDBClientHelper.swift": [515177776, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMSearchResultsTableViewController.swift": [515179641, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMMovieInfo.swift": !dirty [515181606, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMGenreCell.swift": [515181758, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMSharedData.swift": [515178579, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMCatalogViewController.swift": [515179646, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMProductCell.swift": [515181741, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/HMCatalogCollectionViewCell.swift": [514738501, 0]
+  "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/AppDelegate.swift": [515177235, 0]

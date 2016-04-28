@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCellID" rowHeight="298" id="qeM-WR-nmG" customClass="HMProductCell" customModule="AmazonProductBrowser" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="318"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qeM-WR-nmG" id="mR0-ov-AjJ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="317"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a2i-66-6QY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="247"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="247" id="flo-jB-8jY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="flo-jB-8jY"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6a-Ka-qjk">
+                        <rect key="frame" x="8" y="247" width="304" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="qfo-1R-xaF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="di2-F2-uqz">
+                        <rect key="frame" x="125" y="283" width="72" height="27"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jge-bc-ZFC">
+                                <rect key="frame" x="5" y="2" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="4zh-kD-5Lr"/>
+                                    <constraint firstAttribute="height" constant="24" id="Mlg-N9-cfz"/>
+                                </constraints>
+                                <state key="normal" image="love_line_red"/>
+                                <connections>
+                                    <action selector="loveButtonClicked:" destination="qeM-WR-nmG" eventType="touchUpInside" id="Zzg-Na-jL0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Beq-hS-fin">
+                                <rect key="frame" x="43" y="1" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="drS-dO-xmp"/>
+                                    <constraint firstAttribute="height" constant="24" id="eAH-hM-pM4"/>
+                                </constraints>
+                                <state key="normal" image="favorite_line_red"/>
+                                <connections>
+                                    <action selector="favoriteButtonClicked:" destination="qeM-WR-nmG" eventType="touchUpInside" id="j2X-dA-pZX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="jge-bc-ZFC" firstAttribute="leading" secondItem="di2-F2-uqz" secondAttribute="leading" constant="5" id="DV7-ej-pCJ"/>
+                            <constraint firstItem="Beq-hS-fin" firstAttribute="leading" secondItem="jge-bc-ZFC" secondAttribute="trailing" constant="14" id="OaN-pT-zCK"/>
+                            <constraint firstItem="Beq-hS-fin" firstAttribute="centerY" secondItem="di2-F2-uqz" secondAttribute="centerY" id="aBa-TB-nSb"/>
+                            <constraint firstAttribute="trailing" secondItem="Beq-hS-fin" secondAttribute="trailing" constant="5" id="j8p-vq-iq1"/>
+                            <constraint firstItem="jge-bc-ZFC" firstAttribute="bottom" secondItem="Beq-hS-fin" secondAttribute="bottom" constant="1" id="rn5-Tz-Zph"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="w6a-Ka-qjk" firstAttribute="leading" secondItem="mR0-ov-AjJ" secondAttribute="leadingMargin" id="5iy-Kq-ZiT"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="w6a-Ka-qjk" secondAttribute="bottom" constant="28" id="Asx-jA-erk"/>
+                    <constraint firstAttribute="trailing" secondItem="a2i-66-6QY" secondAttribute="trailing" id="FyK-Xe-C1c"/>
+                    <constraint firstItem="di2-F2-uqz" firstAttribute="centerX" secondItem="w6a-Ka-qjk" secondAttribute="centerX" constant="1" id="KEl-mM-7Ej"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="di2-F2-uqz" secondAttribute="bottom" constant="-1" id="OJP-bs-Znl"/>
+                    <constraint firstItem="di2-F2-uqz" firstAttribute="top" secondItem="w6a-Ka-qjk" secondAttribute="bottom" constant="2" id="Ws2-dd-Vu1"/>
+                    <constraint firstItem="a2i-66-6QY" firstAttribute="top" secondItem="mR0-ov-AjJ" secondAttribute="top" id="bXr-at-lhd"/>
+                    <constraint firstItem="a2i-66-6QY" firstAttribute="centerX" secondItem="w6a-Ka-qjk" secondAttribute="centerX" id="h1T-WS-pcQ"/>
+                    <constraint firstItem="a2i-66-6QY" firstAttribute="leading" secondItem="mR0-ov-AjJ" secondAttribute="leading" id="mPz-YM-K08"/>
+                    <constraint firstItem="w6a-Ka-qjk" firstAttribute="top" secondItem="a2i-66-6QY" secondAttribute="bottom" id="uPU-0S-bTM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mFavoriteButton" destination="Beq-hS-fin" id="koW-70-F6g"/>
+                <outlet property="mImageView" destination="a2i-66-6QY" id="Hm1-02-Dyk"/>
+                <outlet property="mLoveButton" destination="jge-bc-ZFC" id="72W-C8-SSF"/>
+                <outlet property="mTitle" destination="w6a-Ka-qjk" id="klK-0D-Q56"/>
+            </connections>
+            <point key="canvasLocation" x="410" y="376"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="favorite_line_red" width="32" height="32"/>
+        <image name="love_line_red" width="32" height="31"/>
+    </resources>
+</document>

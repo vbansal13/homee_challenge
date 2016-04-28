@@ -1,0 +1,1053 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HMSharedData"
+provides-nominal:
+- "C20AmazonProductBrowser12HMSharedData"
+provides-member:
+- ["C20AmazonProductBrowser12HMSharedData", ""]
+provides-dynamic-lookup:
+- "addToLoveList"
+- "loadFavoriteGenres"
+- "isInLoveList"
+- "loadFavoriteList"
+- "loadLoveList"
+- "movieFavoriteListArchiveURL"
+- "getFavoriteMovie"
+- "getFavoriteMoviesInGenre"
+- "sharedInstance"
+- "numberOfFavoriteGenres"
+- "removeFromFavoriteList"
+- "movieFavoriteGenreArchiveURL"
+- "saveConfiguration"
+- "saveFavoriteGenres"
+- "getFavoriteMovieIds"
+- "favoriteGenreAt"
+- "documentsDirectory"
+- "removeFromLoveList"
+- "saveFavoriteList"
+- "addToFavoriteGenres"
+- "removeFromFavoriteGenres"
+- "loadConfiguration"
+- "movieLoveListArchiveURL"
+- "saveLoveList"
+- "getMovie"
+- "getLovedMovieIds"
+- "removeFavoriteGenreAt"
+- "removeFromFavoriteListWithGenre"
+- "addToFavoriteList"
+- "isInFavoriteList"
+- "renameFavoriteGenreAt"
+depends-top-level:
+- !private "NSKeyedUnarchiver"
+- !private "=="
+- "Bool"
+- "Dictionary"
+- "StringLiteralType"
+- !private "<"
+- "String"
+- !private "BooleanLiteralType"
+- "Int"
+- !private "NSKeyedArchiver"
+- "HMMovieInfo"
+- "NSObject"
+- "NSFileManager"
+- "HMSharedData"
+depends-member:
+- ["Ps9AnyObject", "HMSharedData"]
+- !private ["Ps9AnyObject", "Int"]
+- ["Ps9AnyObject", "NSFileManager"]
+- !private ["Ps9AnyObject", "NSKeyedArchiver"]
+- !private ["Ps9AnyObject", "NSKeyedUnarchiver"]
+- ["Ps9AnyObject", "URLByAppendingPathComponent"]
+- ["Ps9AnyObject", "URLsForDirectory"]
+- ["Ps9AnyObject", "addToFavoriteGenres"]
+- ["Ps9AnyObject", "addToFavoriteList"]
+- ["Ps9AnyObject", "addToLoveList"]
+- !private ["Ps9AnyObject", "archiveRootObject"]
+- ["Ps9AnyObject", "documentsDirectory"]
+- ["Ps9AnyObject", "favoriteGenreAt"]
+- ["Ps9AnyObject", "getFavoriteMovie"]
+- ["Ps9AnyObject", "getFavoriteMovieIds"]
+- ["Ps9AnyObject", "getFavoriteMoviesInGenre"]
+- ["Ps9AnyObject", "getLovedMovieIds"]
+- ["Ps9AnyObject", "getMovie"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isInFavoriteList"]
+- ["Ps9AnyObject", "isInLoveList"]
+- ["Ps9AnyObject", "loadConfiguration"]
+- ["Ps9AnyObject", "loadFavoriteGenres"]
+- ["Ps9AnyObject", "loadFavoriteList"]
+- ["Ps9AnyObject", "loadLoveList"]
+- !private ["Ps9AnyObject", "mFavoriteCateogry"]
+- ["Ps9AnyObject", "mFavoriteGenreList"]
+- ["Ps9AnyObject", "mFavoriteList"]
+- ["Ps9AnyObject", "mLoveList"]
+- !private ["Ps9AnyObject", "mMovieId"]
+- ["Ps9AnyObject", "movieFavoriteGenreArchiveURL"]
+- ["Ps9AnyObject", "movieFavoriteListArchiveURL"]
+- ["Ps9AnyObject", "movieLoveListArchiveURL"]
+- ["Ps9AnyObject", "numberOfFavoriteGenres"]
+- !private ["Ps9AnyObject", "path"]
+- ["Ps9AnyObject", "removeFavoriteGenreAt"]
+- ["Ps9AnyObject", "removeFromFavoriteGenres"]
+- ["Ps9AnyObject", "removeFromFavoriteList"]
+- ["Ps9AnyObject", "removeFromFavoriteListWithGenre"]
+- ["Ps9AnyObject", "removeFromLoveList"]
+- ["Ps9AnyObject", "renameFavoriteGenreAt"]
+- ["Ps9AnyObject", "saveConfiguration"]
+- ["Ps9AnyObject", "saveFavoriteGenres"]
+- ["Ps9AnyObject", "saveFavoriteList"]
+- ["Ps9AnyObject", "saveLoveList"]
+- ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "unarchiveObjectWithFile"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Generator"]
+- ["Sa", "Index"]
+- ["Sa", "SubSequence"]
+- ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- ["Sa", "first"]
+- !private ["Sa", "indexOf"]
+- !private ["Sa", "init"]
+- !private ["Sa", "removeAtIndex"]
+- !private ["Sa", "subscript"]
+- ["Ps23ArrayLiteralConvertible", "Generator"]
+- ["Ps23ArrayLiteralConvertible", "Index"]
+- ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- ["Ps23ArrayLiteralConvertible", "UserDomainMask"]
+- ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- ["Ps23ArrayLiteralConvertible", "first"]
+- !private ["Ps23ArrayLiteralConvertible", "indexOf"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAtIndex"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- ["Vs10ArraySlice", "Generator"]
+- ["Vs10ArraySlice", "Index"]
+- ["Ps22BidirectionalIndexType", "Distance"]
+- ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- ["Ps21BitwiseOperationsType", "Distance"]
+- ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "Distance"]
+- ["Ps11CVarArgType", "HMSharedData"]
+- !private ["Ps11CVarArgType", "Int"]
+- ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "NSFileManager"]
+- !private ["Ps11CVarArgType", "NSKeyedArchiver"]
+- !private ["Ps11CVarArgType", "NSKeyedUnarchiver"]
+- ["Ps11CVarArgType", "URLByAppendingPathComponent"]
+- ["Ps11CVarArgType", "URLsForDirectory"]
+- ["Ps11CVarArgType", "addToFavoriteGenres"]
+- ["Ps11CVarArgType", "addToFavoriteList"]
+- ["Ps11CVarArgType", "addToLoveList"]
+- !private ["Ps11CVarArgType", "archiveRootObject"]
+- ["Ps11CVarArgType", "documentsDirectory"]
+- ["Ps11CVarArgType", "favoriteGenreAt"]
+- ["Ps11CVarArgType", "getFavoriteMovie"]
+- ["Ps11CVarArgType", "getFavoriteMovieIds"]
+- ["Ps11CVarArgType", "getFavoriteMoviesInGenre"]
+- ["Ps11CVarArgType", "getLovedMovieIds"]
+- ["Ps11CVarArgType", "getMovie"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isInFavoriteList"]
+- ["Ps11CVarArgType", "isInLoveList"]
+- ["Ps11CVarArgType", "loadConfiguration"]
+- ["Ps11CVarArgType", "loadFavoriteGenres"]
+- ["Ps11CVarArgType", "loadFavoriteList"]
+- ["Ps11CVarArgType", "loadLoveList"]
+- !private ["Ps11CVarArgType", "mFavoriteCateogry"]
+- ["Ps11CVarArgType", "mFavoriteGenreList"]
+- ["Ps11CVarArgType", "mFavoriteList"]
+- ["Ps11CVarArgType", "mLoveList"]
+- !private ["Ps11CVarArgType", "mMovieId"]
+- ["Ps11CVarArgType", "movieFavoriteGenreArchiveURL"]
+- ["Ps11CVarArgType", "movieFavoriteListArchiveURL"]
+- ["Ps11CVarArgType", "movieLoveListArchiveURL"]
+- ["Ps11CVarArgType", "numberOfFavoriteGenres"]
+- !private ["Ps11CVarArgType", "path"]
+- ["Ps11CVarArgType", "removeFavoriteGenreAt"]
+- ["Ps11CVarArgType", "removeFromFavoriteGenres"]
+- ["Ps11CVarArgType", "removeFromFavoriteList"]
+- ["Ps11CVarArgType", "removeFromFavoriteListWithGenre"]
+- ["Ps11CVarArgType", "removeFromLoveList"]
+- ["Ps11CVarArgType", "renameFavoriteGenreAt"]
+- ["Ps11CVarArgType", "saveConfiguration"]
+- ["Ps11CVarArgType", "saveFavoriteGenres"]
+- ["Ps11CVarArgType", "saveFavoriteList"]
+- ["Ps11CVarArgType", "saveLoveList"]
+- ["Ps11CVarArgType", "sharedInstance"]
+- !private ["Ps11CVarArgType", "unarchiveObjectWithFile"]
+- ["Ps11CVarArgType", ""]
+- ["Ps14CollectionType", "Generator"]
+- ["Ps14CollectionType", "Index"]
+- ["Ps14CollectionType", "Key"]
+- ["Ps14CollectionType", "SubSequence"]
+- ["Ps14CollectionType", "Value"]
+- ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "count"]
+- ["Ps14CollectionType", "first"]
+- !private ["Ps14CollectionType", "indexOf"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "keys"]
+- !private ["Ps14CollectionType", "removeAtIndex"]
+- !private ["Ps14CollectionType", "removeValueForKey"]
+- !private ["Ps14CollectionType", "subscript"]
+- ["Ps10Comparable", "Distance"]
+- ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- ["Ps28CustomDebugStringConvertible", "Generator"]
+- ["Ps28CustomDebugStringConvertible", "HMSharedData"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "NSFileManager"]
+- !private ["Ps28CustomDebugStringConvertible", "NSKeyedArchiver"]
+- !private ["Ps28CustomDebugStringConvertible", "NSKeyedUnarchiver"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "URLByAppendingPathComponent"]
+- ["Ps28CustomDebugStringConvertible", "URLsForDirectory"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "addToFavoriteGenres"]
+- ["Ps28CustomDebugStringConvertible", "addToFavoriteList"]
+- ["Ps28CustomDebugStringConvertible", "addToLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "archiveRootObject"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "documentsDirectory"]
+- ["Ps28CustomDebugStringConvertible", "favoriteGenreAt"]
+- ["Ps28CustomDebugStringConvertible", "first"]
+- ["Ps28CustomDebugStringConvertible", "getFavoriteMovie"]
+- ["Ps28CustomDebugStringConvertible", "getFavoriteMovieIds"]
+- ["Ps28CustomDebugStringConvertible", "getFavoriteMoviesInGenre"]
+- ["Ps28CustomDebugStringConvertible", "getLovedMovieIds"]
+- ["Ps28CustomDebugStringConvertible", "getMovie"]
+- !private ["Ps28CustomDebugStringConvertible", "indexOf"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isInFavoriteList"]
+- ["Ps28CustomDebugStringConvertible", "isInLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- ["Ps28CustomDebugStringConvertible", "loadConfiguration"]
+- ["Ps28CustomDebugStringConvertible", "loadFavoriteGenres"]
+- ["Ps28CustomDebugStringConvertible", "loadFavoriteList"]
+- ["Ps28CustomDebugStringConvertible", "loadLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "mFavoriteCateogry"]
+- ["Ps28CustomDebugStringConvertible", "mFavoriteGenreList"]
+- ["Ps28CustomDebugStringConvertible", "mFavoriteList"]
+- ["Ps28CustomDebugStringConvertible", "mLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "mMovieId"]
+- ["Ps28CustomDebugStringConvertible", "movieFavoriteGenreArchiveURL"]
+- ["Ps28CustomDebugStringConvertible", "movieFavoriteListArchiveURL"]
+- ["Ps28CustomDebugStringConvertible", "movieLoveListArchiveURL"]
+- ["Ps28CustomDebugStringConvertible", "numberOfFavoriteGenres"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAtIndex"]
+- ["Ps28CustomDebugStringConvertible", "removeFavoriteGenreAt"]
+- ["Ps28CustomDebugStringConvertible", "removeFromFavoriteGenres"]
+- ["Ps28CustomDebugStringConvertible", "removeFromFavoriteList"]
+- ["Ps28CustomDebugStringConvertible", "removeFromFavoriteListWithGenre"]
+- ["Ps28CustomDebugStringConvertible", "removeFromLoveList"]
+- !private ["Ps28CustomDebugStringConvertible", "removeValueForKey"]
+- ["Ps28CustomDebugStringConvertible", "renameFavoriteGenreAt"]
+- ["Ps28CustomDebugStringConvertible", "saveConfiguration"]
+- ["Ps28CustomDebugStringConvertible", "saveFavoriteGenres"]
+- ["Ps28CustomDebugStringConvertible", "saveFavoriteList"]
+- ["Ps28CustomDebugStringConvertible", "saveLoveList"]
+- ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "unarchiveObjectWithFile"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Distance"]
+- ["Ps23CustomStringConvertible", "Generator"]
+- ["Ps23CustomStringConvertible", "HMSharedData"]
+- ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "NSFileManager"]
+- !private ["Ps23CustomStringConvertible", "NSKeyedArchiver"]
+- !private ["Ps23CustomStringConvertible", "NSKeyedUnarchiver"]
+- ["Ps23CustomStringConvertible", "SubSequence"]
+- ["Ps23CustomStringConvertible", "URLByAppendingPathComponent"]
+- ["Ps23CustomStringConvertible", "URLsForDirectory"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "addToFavoriteGenres"]
+- ["Ps23CustomStringConvertible", "addToFavoriteList"]
+- ["Ps23CustomStringConvertible", "addToLoveList"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "archiveRootObject"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "documentsDirectory"]
+- ["Ps23CustomStringConvertible", "favoriteGenreAt"]
+- ["Ps23CustomStringConvertible", "first"]
+- ["Ps23CustomStringConvertible", "getFavoriteMovie"]
+- ["Ps23CustomStringConvertible", "getFavoriteMovieIds"]
+- ["Ps23CustomStringConvertible", "getFavoriteMoviesInGenre"]
+- ["Ps23CustomStringConvertible", "getLovedMovieIds"]
+- ["Ps23CustomStringConvertible", "getMovie"]
+- !private ["Ps23CustomStringConvertible", "indexOf"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isInFavoriteList"]
+- ["Ps23CustomStringConvertible", "isInLoveList"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- ["Ps23CustomStringConvertible", "loadConfiguration"]
+- ["Ps23CustomStringConvertible", "loadFavoriteGenres"]
+- ["Ps23CustomStringConvertible", "loadFavoriteList"]
+- ["Ps23CustomStringConvertible", "loadLoveList"]
+- !private ["Ps23CustomStringConvertible", "mFavoriteCateogry"]
+- ["Ps23CustomStringConvertible", "mFavoriteGenreList"]
+- ["Ps23CustomStringConvertible", "mFavoriteList"]
+- ["Ps23CustomStringConvertible", "mLoveList"]
+- !private ["Ps23CustomStringConvertible", "mMovieId"]
+- ["Ps23CustomStringConvertible", "movieFavoriteGenreArchiveURL"]
+- ["Ps23CustomStringConvertible", "movieFavoriteListArchiveURL"]
+- ["Ps23CustomStringConvertible", "movieLoveListArchiveURL"]
+- ["Ps23CustomStringConvertible", "numberOfFavoriteGenres"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "removeAtIndex"]
+- ["Ps23CustomStringConvertible", "removeFavoriteGenreAt"]
+- ["Ps23CustomStringConvertible", "removeFromFavoriteGenres"]
+- ["Ps23CustomStringConvertible", "removeFromFavoriteList"]
+- ["Ps23CustomStringConvertible", "removeFromFavoriteListWithGenre"]
+- ["Ps23CustomStringConvertible", "removeFromLoveList"]
+- !private ["Ps23CustomStringConvertible", "removeValueForKey"]
+- ["Ps23CustomStringConvertible", "renameFavoriteGenreAt"]
+- ["Ps23CustomStringConvertible", "saveConfiguration"]
+- ["Ps23CustomStringConvertible", "saveFavoriteGenres"]
+- ["Ps23CustomStringConvertible", "saveFavoriteList"]
+- ["Ps23CustomStringConvertible", "saveLoveList"]
+- ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "unarchiveObjectWithFile"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "Index"]
+- ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "_Element"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs10Dictionary", "removeValueForKey"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Vs15DictionaryIndex", "Distance"]
+- !private ["Vs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "SubSequence"]
+- ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "_Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "keys"]
+- !private ["Ps28DictionaryLiteralConvertible", "removeValueForKey"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- ["Ps9Equatable", "Distance"]
+- ["Ps9Equatable", "DocumentDirectory"]
+- ["Ps9Equatable", "HMSharedData"]
+- !private ["Ps9Equatable", "Int"]
+- ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "NSFileManager"]
+- !private ["Ps9Equatable", "NSKeyedArchiver"]
+- !private ["Ps9Equatable", "NSKeyedUnarchiver"]
+- ["Ps9Equatable", "URLByAppendingPathComponent"]
+- ["Ps9Equatable", "URLsForDirectory"]
+- ["Ps9Equatable", "UserDomainMask"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "addToFavoriteGenres"]
+- ["Ps9Equatable", "addToFavoriteList"]
+- ["Ps9Equatable", "addToLoveList"]
+- !private ["Ps9Equatable", "archiveRootObject"]
+- ["Ps9Equatable", "documentsDirectory"]
+- ["Ps9Equatable", "favoriteGenreAt"]
+- ["Ps9Equatable", "getFavoriteMovie"]
+- ["Ps9Equatable", "getFavoriteMovieIds"]
+- ["Ps9Equatable", "getFavoriteMoviesInGenre"]
+- ["Ps9Equatable", "getLovedMovieIds"]
+- ["Ps9Equatable", "getMovie"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isInFavoriteList"]
+- ["Ps9Equatable", "isInLoveList"]
+- ["Ps9Equatable", "loadConfiguration"]
+- ["Ps9Equatable", "loadFavoriteGenres"]
+- ["Ps9Equatable", "loadFavoriteList"]
+- ["Ps9Equatable", "loadLoveList"]
+- !private ["Ps9Equatable", "mFavoriteCateogry"]
+- ["Ps9Equatable", "mFavoriteGenreList"]
+- ["Ps9Equatable", "mFavoriteList"]
+- ["Ps9Equatable", "mLoveList"]
+- !private ["Ps9Equatable", "mMovieId"]
+- ["Ps9Equatable", "movieFavoriteGenreArchiveURL"]
+- ["Ps9Equatable", "movieFavoriteListArchiveURL"]
+- ["Ps9Equatable", "movieLoveListArchiveURL"]
+- ["Ps9Equatable", "numberOfFavoriteGenres"]
+- !private ["Ps9Equatable", "path"]
+- ["Ps9Equatable", "removeFavoriteGenreAt"]
+- ["Ps9Equatable", "removeFromFavoriteGenres"]
+- ["Ps9Equatable", "removeFromFavoriteList"]
+- ["Ps9Equatable", "removeFromFavoriteListWithGenre"]
+- ["Ps9Equatable", "removeFromLoveList"]
+- ["Ps9Equatable", "renameFavoriteGenreAt"]
+- ["Ps9Equatable", "saveConfiguration"]
+- ["Ps9Equatable", "saveFavoriteGenres"]
+- ["Ps9Equatable", "saveFavoriteList"]
+- ["Ps9Equatable", "saveLoveList"]
+- ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "unarchiveObjectWithFile"]
+- ["Ps9Equatable", ""]
+- ["Ps16ForwardIndexType", "Distance"]
+- ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "_DisabledRangeIndex"]
+- ["Ps13GeneratorType", "Element"]
+- !private ["C20AmazonProductBrowser11HMMovieInfo", "mFavoriteCateogry"]
+- !private ["C20AmazonProductBrowser11HMMovieInfo", "mMovieId"]
+- ["C20AmazonProductBrowser12HMSharedData", "Bool"]
+- ["C20AmazonProductBrowser12HMSharedData", "HMMovieInfo"]
+- ["C20AmazonProductBrowser12HMSharedData", "HMSharedData"]
+- ["C20AmazonProductBrowser12HMSharedData", "Int"]
+- ["C20AmazonProductBrowser12HMSharedData", "NSFileManager"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "NSKeyedArchiver"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "NSKeyedUnarchiver"]
+- ["C20AmazonProductBrowser12HMSharedData", "String"]
+- ["C20AmazonProductBrowser12HMSharedData", "addToFavoriteGenres"]
+- ["C20AmazonProductBrowser12HMSharedData", "addToFavoriteList"]
+- ["C20AmazonProductBrowser12HMSharedData", "addToLoveList"]
+- ["C20AmazonProductBrowser12HMSharedData", "deinit"]
+- ["C20AmazonProductBrowser12HMSharedData", "documentsDirectory"]
+- ["C20AmazonProductBrowser12HMSharedData", "favoriteGenreAt"]
+- ["C20AmazonProductBrowser12HMSharedData", "getFavoriteMovie"]
+- ["C20AmazonProductBrowser12HMSharedData", "getFavoriteMovieIds"]
+- ["C20AmazonProductBrowser12HMSharedData", "getFavoriteMoviesInGenre"]
+- ["C20AmazonProductBrowser12HMSharedData", "getLovedMovieIds"]
+- ["C20AmazonProductBrowser12HMSharedData", "getMovie"]
+- ["C20AmazonProductBrowser12HMSharedData", "init"]
+- ["C20AmazonProductBrowser12HMSharedData", "isInFavoriteList"]
+- ["C20AmazonProductBrowser12HMSharedData", "isInLoveList"]
+- ["C20AmazonProductBrowser12HMSharedData", "loadConfiguration"]
+- ["C20AmazonProductBrowser12HMSharedData", "loadFavoriteGenres"]
+- ["C20AmazonProductBrowser12HMSharedData", "loadFavoriteList"]
+- ["C20AmazonProductBrowser12HMSharedData", "loadLoveList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "mFavoriteGenreList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "mFavoriteList"]
+- !private ["C20AmazonProductBrowser12HMSharedData", "mLoveList"]
+- ["C20AmazonProductBrowser12HMSharedData", "movieFavoriteGenreArchiveURL"]
+- ["C20AmazonProductBrowser12HMSharedData", "movieFavoriteListArchiveURL"]
+- ["C20AmazonProductBrowser12HMSharedData", "movieLoveListArchiveURL"]
+- ["C20AmazonProductBrowser12HMSharedData", "numberOfFavoriteGenres"]
+- ["C20AmazonProductBrowser12HMSharedData", "removeFavoriteGenreAt"]
+- ["C20AmazonProductBrowser12HMSharedData", "removeFromFavoriteGenres"]
+- ["C20AmazonProductBrowser12HMSharedData", "removeFromFavoriteList"]
+- ["C20AmazonProductBrowser12HMSharedData", "removeFromFavoriteListWithGenre"]
+- ["C20AmazonProductBrowser12HMSharedData", "removeFromLoveList"]
+- ["C20AmazonProductBrowser12HMSharedData", "renameFavoriteGenreAt"]
+- ["C20AmazonProductBrowser12HMSharedData", "saveConfiguration"]
+- ["C20AmazonProductBrowser12HMSharedData", "saveFavoriteGenres"]
+- ["C20AmazonProductBrowser12HMSharedData", "saveFavoriteList"]
+- ["C20AmazonProductBrowser12HMSharedData", "saveLoveList"]
+- ["C20AmazonProductBrowser12HMSharedData", "sharedInstance"]
+- ["Ps8Hashable", "Distance"]
+- ["Ps8Hashable", "DocumentDirectory"]
+- ["Ps8Hashable", "HMSharedData"]
+- !private ["Ps8Hashable", "Int"]
+- ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "NSFileManager"]
+- !private ["Ps8Hashable", "NSKeyedArchiver"]
+- !private ["Ps8Hashable", "NSKeyedUnarchiver"]
+- ["Ps8Hashable", "URLByAppendingPathComponent"]
+- ["Ps8Hashable", "URLsForDirectory"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "addToFavoriteGenres"]
+- ["Ps8Hashable", "addToFavoriteList"]
+- ["Ps8Hashable", "addToLoveList"]
+- !private ["Ps8Hashable", "archiveRootObject"]
+- ["Ps8Hashable", "documentsDirectory"]
+- ["Ps8Hashable", "favoriteGenreAt"]
+- ["Ps8Hashable", "getFavoriteMovie"]
+- ["Ps8Hashable", "getFavoriteMovieIds"]
+- ["Ps8Hashable", "getFavoriteMoviesInGenre"]
+- ["Ps8Hashable", "getLovedMovieIds"]
+- ["Ps8Hashable", "getMovie"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isInFavoriteList"]
+- ["Ps8Hashable", "isInLoveList"]
+- ["Ps8Hashable", "loadConfiguration"]
+- ["Ps8Hashable", "loadFavoriteGenres"]
+- ["Ps8Hashable", "loadFavoriteList"]
+- ["Ps8Hashable", "loadLoveList"]
+- !private ["Ps8Hashable", "mFavoriteCateogry"]
+- ["Ps8Hashable", "mFavoriteGenreList"]
+- ["Ps8Hashable", "mFavoriteList"]
+- ["Ps8Hashable", "mLoveList"]
+- !private ["Ps8Hashable", "mMovieId"]
+- ["Ps8Hashable", "movieFavoriteGenreArchiveURL"]
+- ["Ps8Hashable", "movieFavoriteListArchiveURL"]
+- ["Ps8Hashable", "movieLoveListArchiveURL"]
+- ["Ps8Hashable", "numberOfFavoriteGenres"]
+- !private ["Ps8Hashable", "path"]
+- ["Ps8Hashable", "removeFavoriteGenreAt"]
+- ["Ps8Hashable", "removeFromFavoriteGenres"]
+- ["Ps8Hashable", "removeFromFavoriteList"]
+- ["Ps8Hashable", "removeFromFavoriteListWithGenre"]
+- ["Ps8Hashable", "removeFromLoveList"]
+- ["Ps8Hashable", "renameFavoriteGenreAt"]
+- ["Ps8Hashable", "saveConfiguration"]
+- ["Ps8Hashable", "saveFavoriteGenres"]
+- ["Ps8Hashable", "saveFavoriteList"]
+- ["Ps8Hashable", "saveLoveList"]
+- ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "unarchiveObjectWithFile"]
+- ["Ps8Hashable", ""]
+- ["Ps9Indexable", "Generator"]
+- ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "Value"]
+- ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "count"]
+- ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "indexOf"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "keys"]
+- !private ["Ps9Indexable", "removeAtIndex"]
+- !private ["Ps9Indexable", "removeValueForKey"]
+- !private ["Ps9Indexable", "subscript"]
+- ["Vs17IndexingGenerator", "Element"]
+- ["Si", "Distance"]
+- ["Si", "IntegerLiteralType"]
+- ["Ps21IntegerArithmeticType", "Distance"]
+- ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps25IntegerLiteralConvertible", "Distance"]
+- ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps11IntegerType", "Distance"]
+- ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps18LazyCollectionType", "Generator"]
+- !private ["Vs17LazyMapCollection", "Generator"]
+- !private ["Vs16LazyMapGenerator", "Element"]
+- !private ["Ps16LazySequenceType", "Generator"]
+- ["Ps14MirrorPathType", "Distance"]
+- ["Ps14MirrorPathType", "IntegerLiteralType"]
+- ["Ps21MutableCollectionType", "Generator"]
+- ["Ps21MutableCollectionType", "Index"]
+- ["Ps21MutableCollectionType", "SubSequence"]
+- ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "count"]
+- ["Ps21MutableCollectionType", "first"]
+- !private ["Ps21MutableCollectionType", "indexOf"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps21MutableCollectionType", "removeAtIndex"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- ["Ps16MutableIndexable", "Generator"]
+- ["Ps16MutableIndexable", "Index"]
+- ["Ps16MutableIndexable", "SubSequence"]
+- ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "count"]
+- ["Ps16MutableIndexable", "first"]
+- !private ["Ps16MutableIndexable", "indexOf"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "removeAtIndex"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- ["Ps16MutableSliceable", "Generator"]
+- ["Ps16MutableSliceable", "Index"]
+- ["Ps16MutableSliceable", "SubSequence"]
+- ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "count"]
+- ["Ps16MutableSliceable", "first"]
+- !private ["Ps16MutableSliceable", "indexOf"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["Ps16MutableSliceable", "removeAtIndex"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["CSo7NSCoder", "archiveRootObject"]
+- !private ["CSo7NSCoder", "unarchiveObjectWithFile"]
+- ["PSo8NSCoding", "URLByAppendingPathComponent"]
+- !private ["PSo8NSCoding", "mFavoriteCateogry"]
+- !private ["PSo8NSCoding", "mMovieId"]
+- !private ["PSo8NSCoding", "path"]
+- ["PSo9NSCopying", "URLByAppendingPathComponent"]
+- !private ["PSo9NSCopying", "path"]
+- ["CSo13NSFileManager", "URLsForDirectory"]
+- ["CSo13NSFileManager", "init"]
+- !private ["CSo15NSKeyedArchiver", "archiveRootObject"]
+- !private ["CSo17NSKeyedUnarchiver", "unarchiveObjectWithFile"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "HMMovieInfo"]
+- ["CSo8NSObject", "HMSharedData"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSFileManager"]
+- !private ["CSo8NSObject", "NSKeyedArchiver"]
+- !private ["CSo8NSObject", "NSKeyedUnarchiver"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "URLByAppendingPathComponent"]
+- ["CSo8NSObject", "URLsForDirectory"]
+- ["CSo8NSObject", "addToFavoriteGenres"]
+- ["CSo8NSObject", "addToFavoriteList"]
+- ["CSo8NSObject", "addToLoveList"]
+- !private ["CSo8NSObject", "archiveRootObject"]
+- ["CSo8NSObject", "documentsDirectory"]
+- ["CSo8NSObject", "favoriteGenreAt"]
+- ["CSo8NSObject", "getFavoriteMovie"]
+- ["CSo8NSObject", "getFavoriteMovieIds"]
+- ["CSo8NSObject", "getFavoriteMoviesInGenre"]
+- ["CSo8NSObject", "getLovedMovieIds"]
+- ["CSo8NSObject", "getMovie"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isInFavoriteList"]
+- ["CSo8NSObject", "isInLoveList"]
+- ["CSo8NSObject", "loadConfiguration"]
+- ["CSo8NSObject", "loadFavoriteGenres"]
+- ["CSo8NSObject", "loadFavoriteList"]
+- ["CSo8NSObject", "loadLoveList"]
+- !private ["CSo8NSObject", "mFavoriteCateogry"]
+- ["CSo8NSObject", "mFavoriteGenreList"]
+- ["CSo8NSObject", "mFavoriteList"]
+- ["CSo8NSObject", "mLoveList"]
+- !private ["CSo8NSObject", "mMovieId"]
+- ["CSo8NSObject", "movieFavoriteGenreArchiveURL"]
+- ["CSo8NSObject", "movieFavoriteListArchiveURL"]
+- ["CSo8NSObject", "movieLoveListArchiveURL"]
+- ["CSo8NSObject", "numberOfFavoriteGenres"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "removeFavoriteGenreAt"]
+- ["CSo8NSObject", "removeFromFavoriteGenres"]
+- ["CSo8NSObject", "removeFromFavoriteList"]
+- ["CSo8NSObject", "removeFromFavoriteListWithGenre"]
+- ["CSo8NSObject", "removeFromLoveList"]
+- ["CSo8NSObject", "renameFavoriteGenreAt"]
+- ["CSo8NSObject", "saveConfiguration"]
+- ["CSo8NSObject", "saveFavoriteGenres"]
+- ["CSo8NSObject", "saveFavoriteList"]
+- ["CSo8NSObject", "saveLoveList"]
+- ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "unarchiveObjectWithFile"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "HMSharedData"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- ["PSo16NSObjectProtocol", "NSFileManager"]
+- !private ["PSo16NSObjectProtocol", "NSKeyedArchiver"]
+- !private ["PSo16NSObjectProtocol", "NSKeyedUnarchiver"]
+- ["PSo16NSObjectProtocol", "URLByAppendingPathComponent"]
+- ["PSo16NSObjectProtocol", "URLsForDirectory"]
+- ["PSo16NSObjectProtocol", "addToFavoriteGenres"]
+- ["PSo16NSObjectProtocol", "addToFavoriteList"]
+- ["PSo16NSObjectProtocol", "addToLoveList"]
+- !private ["PSo16NSObjectProtocol", "archiveRootObject"]
+- ["PSo16NSObjectProtocol", "documentsDirectory"]
+- ["PSo16NSObjectProtocol", "favoriteGenreAt"]
+- ["PSo16NSObjectProtocol", "getFavoriteMovie"]
+- ["PSo16NSObjectProtocol", "getFavoriteMovieIds"]
+- ["PSo16NSObjectProtocol", "getFavoriteMoviesInGenre"]
+- ["PSo16NSObjectProtocol", "getLovedMovieIds"]
+- ["PSo16NSObjectProtocol", "getMovie"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isInFavoriteList"]
+- ["PSo16NSObjectProtocol", "isInLoveList"]
+- ["PSo16NSObjectProtocol", "loadConfiguration"]
+- ["PSo16NSObjectProtocol", "loadFavoriteGenres"]
+- ["PSo16NSObjectProtocol", "loadFavoriteList"]
+- ["PSo16NSObjectProtocol", "loadLoveList"]
+- !private ["PSo16NSObjectProtocol", "mFavoriteCateogry"]
+- ["PSo16NSObjectProtocol", "mFavoriteGenreList"]
+- ["PSo16NSObjectProtocol", "mFavoriteList"]
+- ["PSo16NSObjectProtocol", "mLoveList"]
+- !private ["PSo16NSObjectProtocol", "mMovieId"]
+- ["PSo16NSObjectProtocol", "movieFavoriteGenreArchiveURL"]
+- ["PSo16NSObjectProtocol", "movieFavoriteListArchiveURL"]
+- ["PSo16NSObjectProtocol", "movieLoveListArchiveURL"]
+- ["PSo16NSObjectProtocol", "numberOfFavoriteGenres"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- ["PSo16NSObjectProtocol", "removeFavoriteGenreAt"]
+- ["PSo16NSObjectProtocol", "removeFromFavoriteGenres"]
+- ["PSo16NSObjectProtocol", "removeFromFavoriteList"]
+- ["PSo16NSObjectProtocol", "removeFromFavoriteListWithGenre"]
+- ["PSo16NSObjectProtocol", "removeFromLoveList"]
+- ["PSo16NSObjectProtocol", "renameFavoriteGenreAt"]
+- ["PSo16NSObjectProtocol", "saveConfiguration"]
+- ["PSo16NSObjectProtocol", "saveFavoriteGenres"]
+- ["PSo16NSObjectProtocol", "saveFavoriteList"]
+- ["PSo16NSObjectProtocol", "saveLoveList"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "unarchiveObjectWithFile"]
+- ["PSo16NSObjectProtocol", ""]
+- ["OSC21NSSearchPathDirectory", "DocumentDirectory"]
+- ["VSC22NSSearchPathDomainMask", "UserDomainMask"]
+- ["PSo14NSSecureCoding", "URLByAppendingPathComponent"]
+- !private ["PSo14NSSecureCoding", "path"]
+- ["CSo5NSURL", "URLByAppendingPathComponent"]
+- !private ["CSo5NSURL", "path"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Ps13OptionSetType", "UserDomainMask"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["Ps21RandomAccessIndexType", "Distance"]
+- ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- ["Ps30RangeReplaceableCollectionType", "Generator"]
+- ["Ps30RangeReplaceableCollectionType", "Index"]
+- ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- ["Ps30RangeReplaceableCollectionType", "first"]
+- !private ["Ps30RangeReplaceableCollectionType", "indexOf"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "removeAtIndex"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- ["Ps16RawRepresentable", "DocumentDirectory"]
+- ["Ps16RawRepresentable", "UserDomainMask"]
+- ["Ps12SequenceType", "Element"]
+- ["Ps12SequenceType", "Generator"]
+- ["Ps12SequenceType", "Index"]
+- ["Ps12SequenceType", "Key"]
+- ["Ps12SequenceType", "SubSequence"]
+- ["Ps12SequenceType", "Value"]
+- ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "count"]
+- ["Ps12SequenceType", "first"]
+- !private ["Ps12SequenceType", "indexOf"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "keys"]
+- !private ["Ps12SequenceType", "removeAtIndex"]
+- !private ["Ps12SequenceType", "removeValueForKey"]
+- !private ["Ps12SequenceType", "subscript"]
+- ["Ps14SetAlgebraType", "UserDomainMask"]
+- ["Ps17SignedIntegerType", "Distance"]
+- ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- ["Ps16SignedNumberType", "Distance"]
+- ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["Ps10Strideable", "Distance"]
+- ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- ["Ps10_ArrayType", "Generator"]
+- ["Ps10_ArrayType", "Index"]
+- ["Ps10_ArrayType", "SubSequence"]
+- ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "count"]
+- ["Ps10_ArrayType", "first"]
+- !private ["Ps10_ArrayType", "indexOf"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps10_ArrayType", "removeAtIndex"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps24_DestructorSafeContainer", "Generator"]
+- ["Ps24_DestructorSafeContainer", "Index"]
+- ["Ps24_DestructorSafeContainer", "SubSequence"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "indexOf"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "removeAtIndex"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- ["Ps32_FileReferenceLiteralConvertible", "URLByAppendingPathComponent"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "path"]
+- ["Ps14_Incrementable", "Distance"]
+- ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- ["Ps22_IntegerArithmeticType", "Distance"]
+- ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps12_IntegerType", "Distance"]
+- ["Ps12_IntegerType", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "Distance"]
+- ["Ps21_ObjectiveCBridgeable", "Generator"]
+- ["Ps21_ObjectiveCBridgeable", "Index"]
+- ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "indexOf"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "keys"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAtIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeValueForKey"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps22_RandomAccessAmbiguity", "Distance"]
+- ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Distance"]
+- ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "Index"]
+- ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- ["Ps12_Reflectable", "SubSequence"]
+- ["Ps12_Reflectable", "URLByAppendingPathComponent"]
+- ["Ps12_Reflectable", "Value"]
+- ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "count"]
+- ["Ps12_Reflectable", "first"]
+- !private ["Ps12_Reflectable", "indexOf"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "keys"]
+- !private ["Ps12_Reflectable", "path"]
+- !private ["Ps12_Reflectable", "removeAtIndex"]
+- !private ["Ps12_Reflectable", "removeValueForKey"]
+- !private ["Ps12_Reflectable", "subscript"]
+- ["Ps18_SignedIntegerType", "Distance"]
+- ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23ArrayLiteralConvertible"
+- "Vs10ArraySlice"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps14CollectionType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Vs15DictionaryIndex"
+- "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- "Ps16ForwardIndexType"
+- "Ps13GeneratorType"
+- !private "C20AmazonProductBrowser11HMMovieInfo"
+- "C20AmazonProductBrowser12HMSharedData"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Vs17IndexingGenerator"
+- "Si"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- !private "Ps18LazyCollectionType"
+- !private "Vs17LazyMapCollection"
+- !private "Vs16LazyMapGenerator"
+- !private "Ps16LazySequenceType"
+- "Ps14MirrorPathType"
+- "Ps21MutableCollectionType"
+- "Ps16MutableIndexable"
+- "Ps16MutableSliceable"
+- !private "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo13NSFileManager"
+- !private "CSo15NSKeyedArchiver"
+- !private "CSo17NSKeyedUnarchiver"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "OSC21NSSearchPathDirectory"
+- "VSC22NSSearchPathDomainMask"
+- "PSo14NSSecureCoding"
+- "CSo5NSURL"
+- "Ps21NilLiteralConvertible"
+- "Ps13OptionSetType"
+- "Sq"
+- "Ps21RandomAccessIndexType"
+- "Ps30RangeReplaceableCollectionType"
+- "Ps16RawRepresentable"
+- "Ps12SequenceType"
+- "Ps14SetAlgebraType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- "Ps10Strideable"
+- !private "SS"
+- "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps24_DestructorSafeContainer"
+- "Ps32_FileReferenceLiteralConvertible"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser-Bridging-Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/common/CommonTypes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SavedForLaterItems.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoClassSchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/Schema/PicoPropertySchema.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConstants.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoBindable.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/LoyaltyPoints.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors/Error.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/PackageDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/RelatedItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Cart.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Merchant.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories/Accessory.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing/AvailabilityAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearch.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/UPCList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts/SimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/ImageSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems/CartModifyItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders/Header.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/EditorialReview.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc/Track.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClearResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/EANList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments/Argument.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/StringWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Variations.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchResultsMap/SearchIndex.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Image.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/HTTPHeaders.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NonNegativeIntegerWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages/Language.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData/KeyValuePair.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OperationRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartClear.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Creator.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem/MetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems/CartAddItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionSummary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Offer.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks/Disc.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Items.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModifyRequest/CartModifyItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/Subjects.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarProducts.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGetResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookupResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarViewedProducts/SimilarViewedProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddRequest/CartAddItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodeLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Errors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItems.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Collections/Collection/CollectionParent.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNodes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAdd.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CustomerReviews.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreate.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemSearchResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/Languages.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SearchBinSets.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Ancestors.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Property.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Properties.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/DecimalWithUnits.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/ItemDimensions.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Request.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopItemSet/TopItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartCreateRequest/CartCreateItems/CartCreateItem/ItemMetaData.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/TopSellers/TopSeller.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Arguments.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CorrectedQuery.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLinks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Price.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Accessories.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ImageSet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemAttributes/CatalogNumberList.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/NewReleases/NewRelease.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartGet.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartItem.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartAddResponse.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/AlternateVersions/AlternateVersion.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Bin/BinParameter.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Item/VariationAttributes.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OtherCategoriesSimilarProducts/OtherCategoriesSimilarProduct.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Tracks.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLookupRequest.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/CartModify.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/Promotion/Summary.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/OfferListing.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/BrowseNode/Children.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/ItemLink.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/VariationAttribute.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/SimilarityLookup.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/AWSECommerceServiceClient.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/webservices/client/AWSECommerceServicePortType_SOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/WebService/PicoSOAPRequestOperation.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/PicoKit/Pod/Core/PicoConfig.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClient.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/JLTMDbClient/JLTMDbClient/JLTMDbClientDefines.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+- "/Volumes/SecondaryHD/HomeWork/Projects-New/HomeeProject/AmazonProductBrowser/AmazonProductBrowser/ColorWheel.h"
+interface-hash: "c1a65e9c26a4d511a5d792dd251131eb"

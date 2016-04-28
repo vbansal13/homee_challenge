@@ -1,0 +1,1 @@
+ const unsigned char Pods_AmazonProductBrowserVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_AmazonProductBrowser  PROJECT:Pods-1" "\n"; const double Pods_AmazonProductBrowserVersionNumber __attribute__ ((used)) = (double)1.;
